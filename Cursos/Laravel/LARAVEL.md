@@ -376,7 +376,6 @@ Insertan registros a las tablas. Son fábricas que especifica qué se va a crear
 php artisan make:factory <nombre>
 ```
 
-
 ```php
 php artisan migrate:fresh --seed
 ```

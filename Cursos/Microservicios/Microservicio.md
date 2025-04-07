@@ -20,5 +20,3 @@ Una aplicación asociada a un servicio es un ==monolito==. Un monolito no signif
 	- [Spotless](https://github.com/diffplug/spotless)
 	- Pylint
 	- esLint
-## Decision table
-|Herramienta|
