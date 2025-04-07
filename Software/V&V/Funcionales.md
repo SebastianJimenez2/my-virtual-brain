@@ -1,0 +1,1 @@
+Describen que debe hacer el sistema. Depende de nuestra codificación, del comportamiento del algoritmo.

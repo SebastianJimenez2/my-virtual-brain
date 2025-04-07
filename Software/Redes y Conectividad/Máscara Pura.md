@@ -1,0 +1,1 @@
+Cuando una red no ha sido subneteada

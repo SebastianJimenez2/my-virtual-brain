@@ -1,0 +1,6 @@
+- Agiliza la mente del niño
+- El aprendizaje logra cruzar las fronteras de la escuela
+- Permite compartir tiempo en familia
+- Favorece la investigación personal del niño
+- Ayuda a que los padres confíen en el aprendizaje velocidad y ritmo necesarios para cada niño
+- El aprendizaje resulta entretenido

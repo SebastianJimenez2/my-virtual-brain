@@ -1,0 +1,1 @@
+Especifica qué hacer para que con alguna misión a cumplor el jugador lo realice.

@@ -1,0 +1,1 @@
+El primer diagrama que hicimos fue el primer acercamiento a este tipo de comunicación.

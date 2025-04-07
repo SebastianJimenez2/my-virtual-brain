@@ -1,0 +1,1 @@
+Nace de observar, de preguntas que se hacen mediante la observación

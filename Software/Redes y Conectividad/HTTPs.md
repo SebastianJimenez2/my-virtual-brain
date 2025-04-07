@@ -1,0 +1,1 @@
+HTTPs es mas seguro porque usa SSL (Security Socket Layer)

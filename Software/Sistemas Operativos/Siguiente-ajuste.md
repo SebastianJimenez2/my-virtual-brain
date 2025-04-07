@@ -1,0 +1,3 @@
+* Comienza a analizar la memoria desde la última ubicación y elige el siguiente bloque disponible que sea suficientemente grande.
+* Lleva más frecuentemente a una asignación de un bloque libre al final de la memoria, que normalmente es el más grande y se divide rápidamente en pequeños fragmentos. Por tanto, en el caso del algoritmo siguiente-ajuste se puede requerir más frecuentemente la compactación.
+* ![[Ejemplo con siguiente ajuste.png]]

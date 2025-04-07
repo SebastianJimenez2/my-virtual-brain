@@ -1,0 +1,1 @@
+Los sistemas informáticos son los que estructuras una organización.

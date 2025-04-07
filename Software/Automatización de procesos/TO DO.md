@@ -1,0 +1,1 @@
+Fase con un enfoque técnico, aquí se identifica qué tecnologías hacer para llegar a cumplir el proceso propuesto, entra en discusión su enfoque y alcance con las personas encargadas del proceso para evitar malas estimaciones.

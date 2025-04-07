@@ -1,0 +1,1 @@
+Documentar todo lo que se está haciendo. En dónde se sacó la información en base a la búsqueda.

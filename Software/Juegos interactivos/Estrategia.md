@@ -1,0 +1,1 @@
+Aquellos juegos que requieren de inteligencia, habilidad y planificación para impulsar al jugador a la victoria.

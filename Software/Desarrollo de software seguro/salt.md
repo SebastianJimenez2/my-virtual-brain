@@ -1,0 +1,1 @@
+Conjunto de bytes adicionales que yo le pongo para que sea más seguro el resultado

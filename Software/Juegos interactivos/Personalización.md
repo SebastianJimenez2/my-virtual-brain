@@ -1,0 +1,1 @@
+Permite a los jugadores personalizar diferentes objetos (avatares, mundos, nombres)

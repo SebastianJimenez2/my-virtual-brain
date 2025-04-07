@@ -1,0 +1,1 @@
+Validan decisiones arquitectónicas.

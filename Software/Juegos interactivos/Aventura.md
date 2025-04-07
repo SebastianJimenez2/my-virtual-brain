@@ -1,0 +1,1 @@
+Implica la investigación, exploración, resolución de acertijos o rompecabezas, interacción con otros personajes, recolección de artículos.

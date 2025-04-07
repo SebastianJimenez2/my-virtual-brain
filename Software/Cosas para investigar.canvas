@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"a16a56e5b5760064","type":"text","text":"Cómo --> Verbos\nQué --> Sustantivos","x":-420,"y":-560,"width":250,"height":80},
+		{"id":"6c5b15232c4b4927","type":"text","text":"¿Cómo se hace y qué se hace para hacer un seguimiento estudiantil?","x":-147,"y":-255,"width":540,"height":95},
+		{"id":"04c7ed002fb566c7","type":"text","text":"Metodología RAD","x":-420,"y":-660,"width":250,"height":90},
+		{"id":"2d24bca065b8c571","type":"text","text":"Trazabilidad es un criterio de calidad\nDinámico ==> Validar\nEstático ==> Verificar\n\nVerificamos sobre papel pero validamos ejecutando.","x":-515,"y":-350,"width":345,"height":190},
+		{"id":"58191c9208860cea","type":"text","text":"Valores de Scrum:\n- Foco\n- Coraje\n- Compromiso\n- Respeto\n- Apertura","x":-780,"y":-460,"width":240,"height":300},
+		{"id":"9c4943927dc5601f","type":"text","text":"Planificación\t    1 semana\t    25%\nAnálisis\t            2 semanas\t35%\nDiseño\t\t            1 semana\t    10%\nConstrucción\t    2 días\t\t    10%\t\nPruebas\t\t        2 días\t\t    15%\nMantenimiento\t0 días\t \t     5%","x":-780,"y":-660,"width":345,"height":180},
+		{"id":"3db7a44a5cecba67","type":"text","text":"Desarrollo dirigido por hipóteiss.","x":-420,"y":-145,"width":412,"height":50},
+		{"id":"c5963f930f620733","type":"text","text":"Es importante la identificación de la problemática, y debe ser definida a alto nivel.","x":-780,"y":-145,"width":345,"height":100},
+		{"id":"11264e0f8449cccc","type":"text","text":"Complejo. Varias partes\nDifícil. Mucho esfuerzo para aprender","x":-515,"y":-455,"width":345,"height":80},
+		{"id":"c0e1a4d004445ba0","type":"file","file":"V&V/CVD Producto.png","x":-420,"y":-51,"width":412,"height":311},
+		{"id":"dd8133bfb92d1ac8","type":"file","file":"V&V/Efecto Dunning-Kruger.png","x":13,"y":-120,"width":380,"height":380},
+		{"id":"7b6cc30171596751","type":"text","text":"Proforma\n- Problema\n- Solución\n- Costo\n- Tiempos\n- Resultados esperados\n- Tecnologías","x":-780,"y":-20,"width":345,"height":280},
+		{"id":"d0dadc08f6f6889e","type":"text","text":"Se debe seguir dado cuando entonces y?","x":-780,"y":280,"width":250,"height":80},
+		{"id":"a4e72a7ea9513324","type":"file","file":"V&V/Pirámide.png","x":-147,"y":-660,"width":539,"height":384},
+		{"id":"9f95233d581da204","type":"file","file":"V&V/DSDM Metodología.png","x":406,"y":-660,"width":440,"height":516},
+		{"id":"410e64f4de093193","type":"text","text":"Si algo es parte del proceso es un step, no una regla de negocio. La regla de negocio es un comportamiento diferente o algo que guía a la empresa o entidad a la que estamos resolviendo el problema.","x":406,"y":-121,"width":440,"height":161,"color":"5"},
+		{"id":"e3338e4fb1849045","type":"text","text":"La especulación es la hipótesis que se tiene sobre un problema","x":406,"y":180,"width":440,"height":80,"color":"5"},
+		{"id":"b3f1bca640848651","type":"text","text":"Feature es una solución a una problemática. El análisis se da en base a la solución de un sistema.","x":-515,"y":280,"width":485,"height":80},
+		{"id":"cd4236f18c6f3c64","type":"text","text":"No testeo los datos, testeo los comportamientos. Testeo lo que se genera de un comportamiento.","x":406,"y":70,"width":440,"height":80,"color":"5"},
+		{"id":"99634c28985d76b7","type":"text","text":"Dado <estado_inicial_del_sistema>\n","x":-8,"y":280,"width":485,"height":80},
+		{"id":"3090705558935ea7","type":"text","text":"Lo que da valor es hablar el mismo idioma del cliente (no ser latoso ni charlatán)","x":501,"y":280,"width":345,"height":80},
+		{"id":"c62f9e73e9e061f0","type":"text","text":"INVEST NO da calidad es una guía","x":-780,"y":380,"width":220,"height":80}
+	],
+	"edges":[]
+}

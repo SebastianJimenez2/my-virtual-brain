@@ -1,0 +1,1 @@
+Conocidos como videojuegos de lógica o de inteligencia, en este se requiere que el usuario resuelva problemas que involucren el ejercicio de su memoria

@@ -1,0 +1,4 @@
+- El juego engancha a los jugadores
+- El juego tiene desafíos
+- El juego presenta actividad libre y voluntaria
+- El juego es un sistema cerrado y formal

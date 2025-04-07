@@ -1,0 +1,1 @@
+Propuestas de mejora de un proceso es cuestión, por tanto, se ==rediseña el proceso==, buscando reevaluar las actividades del negocio encontrando una propuesta para una visión a futuro

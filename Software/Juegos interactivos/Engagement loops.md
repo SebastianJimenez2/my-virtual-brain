@@ -1,0 +1,1 @@
+Los bucles de compromiso son las recompensas que hacen que el jugador se enganche.

@@ -1,0 +1,6 @@
+ 1. [[Compute]]
+ 2. [[Networking]]
+ 3. [[Storage]]
+ 4. [[Database]]
+ 5. [[Application management]]
+ 6. [[Security and identity]]

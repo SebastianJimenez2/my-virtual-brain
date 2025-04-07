@@ -1,0 +1,1 @@
+Muestran algo histórico, referente al mundo. Se da a conocer la historia a partir de un juego

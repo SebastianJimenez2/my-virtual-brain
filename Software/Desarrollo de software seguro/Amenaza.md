@@ -1,0 +1,1 @@
+Algo que pueda generar una afectación a un sistema, afectando la disponibilidad del mismo

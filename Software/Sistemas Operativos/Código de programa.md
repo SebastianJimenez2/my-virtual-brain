@@ -1,0 +1,1 @@
+Puede ser compartido con otros procesos que están ejecutando el mismo programa

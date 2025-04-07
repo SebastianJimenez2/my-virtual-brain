@@ -1,0 +1,1 @@
+Dentro de esta etapa se encuentran los estilos y los patrones.

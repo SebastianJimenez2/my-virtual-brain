@@ -1,0 +1,1 @@
+Cosas que se pueden poner en el entorno para protegerlo.

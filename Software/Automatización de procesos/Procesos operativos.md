@@ -1,0 +1,1 @@
+Son procesos para fabricar un producto o salida que recibe el usuario.

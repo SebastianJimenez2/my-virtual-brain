@@ -1,0 +1,1 @@
+No solamente se debe ver del punto de vista contable, sino que también son datos.

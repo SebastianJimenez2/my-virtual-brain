@@ -1,0 +1,1 @@
+Se refiera a al descripción de la historia, narrativa del escenario a ser plasmado en el contenido del JS

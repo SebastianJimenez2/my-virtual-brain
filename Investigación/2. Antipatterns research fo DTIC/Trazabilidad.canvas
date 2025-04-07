@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"6169adf9943bfad0","type":"file","file":"2. Antipatterns research fo DTIC/Antipattern Detection and Software Refactoring in UML Models.pdf","x":100,"y":600,"width":400,"height":400},
+		{"id":"51b16ec866be3c80","type":"file","file":"2. Antipatterns research fo DTIC/Automating Performance Antipattern Detection and Software Refactoring in UML Models.md","x":-440,"y":600,"width":400,"height":400},
+		{"id":"de480b1da4e12b41","type":"file","file":"2. Antipatterns research fo DTIC/Detecting Patterns and Antipatterns in Software using Prolog Rules (logic-based).md","x":-440,"y":1060,"width":400,"height":400},
+		{"id":"1d82f13b9a874fd9","type":"file","file":"2. Antipatterns research fo DTIC/Detecting Patterns and Antipatterns in Software using Prolog Rules.pdf","x":100,"y":1060,"width":400,"height":400},
+		{"id":"d3b716704dfbc93a","type":"file","file":"2. Antipatterns research fo DTIC/Identification of Guilty performance antipatterns.md","x":-440,"y":0,"width":400,"height":540},
+		{"id":"e475a0dd983ed1e8","type":"file","file":"2. Antipatterns research fo DTIC/Identification of Guilty performance antipatterns.pdf","x":100,"y":70,"width":400,"height":400},
+		{"id":"0ffd759162d1ed0b","type":"file","file":"2. Antipatterns research fo DTIC/Metric and Rule Based Automated Detection of Antipatterns in Object-Oriented Software Systems.md","x":-440,"y":1574,"width":400,"height":400},
+		{"id":"e19b0d771530dc80","type":"file","file":"2. Antipatterns research fo DTIC/Metric and rule based automated detection of antipatterns in object-oriented software systems.pdf","subpath":"#page=5","x":100,"y":1574,"width":400,"height":400},
+		{"id":"33d2fa138111db3f","type":"file","file":"2. Antipatterns research fo DTIC/Techniques - Optimized Unit Testing for Antipattern Detection.md","x":-440,"y":2120,"width":400,"height":400},
+		{"id":"8820a601356f01e2","type":"file","file":"2. Antipatterns research fo DTIC/Techniques - Optimized Unit Testing for Antipattern Detection.pdf","x":100,"y":2120,"width":400,"height":400},
+		{"id":"4614716f4b6ec043","type":"text","text":"#Conferencia","x":580,"y":1744,"width":250,"height":60},
+		{"id":"52c9bccde509cc99","type":"text","text":"1. Rendimiento \n2. Detección automática de antipatrones\n3. Refactorización o idea de solución.","x":620,"y":600,"width":250,"height":200},
+		{"id":"ccf7e71cd7249197","type":"text","text":"¿Existe algún programa?\n¿Es posible la detección automática?\n¿Existe herramientas que nos faciliten la detección?\n\n","x":980,"y":600,"width":250,"height":200},
+		{"id":"13cb013ff23e8f0c","x":620,"y":340,"width":250,"height":200,"type":"text","text":"La investigación giró entorno a:\n- Automatización\n- Rendimiento\n- Diseño"}
+	],
+	"edges":[
+		{"id":"f5594bcec927b75a","fromNode":"d3b716704dfbc93a","fromSide":"right","toNode":"e475a0dd983ed1e8","toSide":"left"},
+		{"id":"3ee1829e31c267cf","fromNode":"51b16ec866be3c80","fromSide":"right","toNode":"6169adf9943bfad0","toSide":"left"},
+		{"id":"a6d1f6d1bd711239","fromNode":"de480b1da4e12b41","fromSide":"right","toNode":"1d82f13b9a874fd9","toSide":"left"},
+		{"id":"07fcb71ca89862ad","fromNode":"0ffd759162d1ed0b","fromSide":"right","toNode":"e19b0d771530dc80","toSide":"left"},
+		{"id":"f7467df0afe89ab6","fromNode":"33d2fa138111db3f","fromSide":"right","toNode":"8820a601356f01e2","toSide":"left"},
+		{"id":"5ee5a87490cae255","fromNode":"e19b0d771530dc80","fromSide":"right","toNode":"4614716f4b6ec043","toSide":"left"},
+		{"id":"3ff90298ed0ec983","fromNode":"13cb013ff23e8f0c","fromSide":"bottom","toNode":"52c9bccde509cc99","toSide":"top"}
+	]
+}

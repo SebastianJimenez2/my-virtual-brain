@@ -1,0 +1,1 @@
+Esperar un resultado de ganar o perder

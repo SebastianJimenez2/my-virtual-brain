@@ -1,0 +1,1 @@
+Acumular puntos en el juego ya sea por que realizó bien las acciones en el juego o porque obtiene bonos para continuar jugando.

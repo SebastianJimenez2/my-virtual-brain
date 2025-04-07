@@ -1,0 +1,1 @@
+Permite acceder a un subconjunto de las instrucciones que ofrece el procesador, es el modo en el que se ejecutan los procesos.

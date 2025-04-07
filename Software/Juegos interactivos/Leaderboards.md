@@ -1,0 +1,1 @@
+Lista de mejores puntajes que se ha ido obteniendo mientras se juego.

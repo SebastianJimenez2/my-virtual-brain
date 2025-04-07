@@ -1,0 +1,3 @@
+- Representación precisa
+- Análisis y toma de datos
+- Escalabilidad y flexibilidad

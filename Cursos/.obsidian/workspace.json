@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "145f8d1d469e63d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "118942691b08be7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "124bde0563979ca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Expo Arquitectura/Análisis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Análisis"
+            }
+          },
+          {
+            "id": "3480aeb32845acda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laravel/LARAVEL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LARAVEL"
+            }
+          },
+          {
+            "id": "debe9bbd6922ae7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Implementación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Implementación"
+            }
+          },
+          {
+            "id": "d0a2d32ab689ef74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diseño.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diseño"
+            }
+          },
+          {
+            "id": "324652b18a7ffea3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Análisis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Análisis"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a65802d4b5d86392",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ad1f906b222aca6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fcd25db1ec9b8fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d1954c694466f92f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4b6f625aa9dd7d73",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 178
+  },
+  "right": {
+    "id": "a3101a26a47bfce7",
+    "type": "split",
+    "children": [
+      {
+        "id": "667cca5256a20ef8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71dc2050d487f516",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JavaScript/JavaScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for JavaScript"
+            }
+          },
+          {
+            "id": "31f83c02d936685b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "3480aeb32845acda",
+  "lastOpenFiles": [
+    "Expo Arquitectura/Análisis.md",
+    "Laravel/LARAVEL.md",
+    "Laravel",
+    "Expo Arquitectura/Arquitectura.md",
+    "Expo Arquitectura/Diseño.md",
+    "Expo Arquitectura/Implementación.md",
+    "Arquitectura distribuida.md",
+    "Expo Arquitectura/Pasted image 20250227112408.png",
+    "Expo Arquitectura/Mantenimiento.md",
+    "Expo Arquitectura/Pruebas.md",
+    "JavaScript/JavaScript.md",
+    "Expo Arquitectura/Requerimientos.md",
+    "Expo Arquitectura",
+    "Expo Arquitectura/Pasted image 20250218100553.png",
+    "Expo Arquitectura/Pasted image 20250218100541.png",
+    "Microservicios/Microservicio.md",
+    "Python/Python.md",
+    "PSO - Optimización por enjambre de partículas.md",
+    "Ethical Hacking/Apuntes.md",
+    "AWS/validate.md",
+    "AWS/Service control policy.md",
+    "AWS/Security and identity.md",
+    "AWS/Organization Unit.md",
+    "AWS/Networking.md",
+    "AWS/init.md",
+    "AWS/IaaS.md",
+    "AWS/Docker file.md",
+    "AWS/destroy.md",
+    "AWS/Database.md",
+    "AWS/Containers vs VM.png",
+    "AWS/Compute.md",
+    "AWS/Comandos.md",
+    "Microservicios",
+    "RAISE Lab",
+    "Untitled.canvas",
+    "Pasted image 20240323100124.png",
+    "AWS",
+    "Python",
+    "Ethical Hacking/SDLC.png",
+    "Ethical Hacking/Criptografía.png",
+    "JavaScript"
+  ]
+}

@@ -1,0 +1,2 @@
+[[Funcionales]]
+[[No funcionales]]

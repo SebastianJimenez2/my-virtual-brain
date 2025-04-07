@@ -1,0 +1,1 @@
+Destruir la infraestructura creada previamente.

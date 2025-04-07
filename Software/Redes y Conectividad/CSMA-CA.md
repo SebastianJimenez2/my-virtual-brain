@@ -1,0 +1,1 @@
+Acceso múltiple por detección de portadora con prevención de colisiones

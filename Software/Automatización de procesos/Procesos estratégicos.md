@@ -1,0 +1,1 @@
+Son todos los procesos que apoyan a cumplir los objetivos estratégicos de la organización

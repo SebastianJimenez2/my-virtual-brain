@@ -1,0 +1,1 @@
+Tratar de vulnerar un sistema siguiendo normas éticas. Tiene permisos y avisa lo que hace a forma de documentación para cerrar esa brecha.

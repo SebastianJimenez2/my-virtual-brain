@@ -1,0 +1,6 @@
+- [[Aventura]]
+- [[Razonamiento]]
+- [[Rol]]
+- [[Simulación]]
+- [[Estrategia]]
+- [[Acción]]

@@ -1,0 +1,1 @@
+Utiliza un micrófono para activar ciertos objetos.

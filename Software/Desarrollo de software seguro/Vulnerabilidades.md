@@ -1,0 +1,1 @@
+Es una brecha que puede ser aprovechada por un cracker.

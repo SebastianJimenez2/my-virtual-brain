@@ -1,0 +1,1 @@
+Trata de demostrar que las dos partes que intervienen en una transacción no pueden denegar que formaron parte de esta intervención. 

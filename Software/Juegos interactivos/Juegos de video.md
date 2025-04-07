@@ -1,0 +1,4 @@
+- [[Segun Shell]]
+- [[Segun Katie Salen y Eric Zimmerman]]
+- [[Según Ernest Adams]]
+- [[Según Greg Costikyan]]

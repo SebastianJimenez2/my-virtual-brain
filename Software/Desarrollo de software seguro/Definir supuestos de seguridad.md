@@ -1,0 +1,1 @@
+Se deben analizar desde la perspectiva de la herramienta que se está usando (SO).

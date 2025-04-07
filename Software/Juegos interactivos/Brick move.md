@@ -1,0 +1,1 @@
+Cambiar coordenadas de los objetos

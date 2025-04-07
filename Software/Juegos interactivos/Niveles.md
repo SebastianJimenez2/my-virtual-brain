@@ -1,0 +1,1 @@
+Avanzar en niveles si se ha ganado el anterior.

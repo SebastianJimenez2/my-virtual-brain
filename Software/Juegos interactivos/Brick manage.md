@@ -1,0 +1,1 @@
+Administrar recursos en función de objetivos.

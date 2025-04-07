@@ -1,0 +1,7 @@
+-  [[Ciclo de Vida del Desarrollo de Software]]
+- [[UML]]
+- [[Calidad]]
+- [[4P's]]
+- [[Historias de Usuario]]
+- [[Cómo se mide una métrica]]
+- [[Problemas de diseño]]

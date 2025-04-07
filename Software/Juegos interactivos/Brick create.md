@@ -1,0 +1,1 @@
+Se crean objetos en el escenario

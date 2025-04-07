@@ -1,0 +1,1 @@
+¿Qué cosas no se deben hacer desde la perspectiva?

@@ -1,0 +1,1 @@
+Permite la ejecución de todo el conjunto de instrucciones que ofrece el procesador. Es el modo en el que se ejecuta el núcleo de un sistema

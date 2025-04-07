@@ -1,0 +1,1 @@
+Juegos que ponen anuncios dentro del escenario o que busca persuadir con un tema al respecto

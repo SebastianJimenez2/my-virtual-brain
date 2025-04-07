@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "145f8d1d469e63d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d25a6115b235096d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Git & GitHub/Apuntes.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a65802d4b5d86392",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ad1f906b222aca6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fcd25db1ec9b8fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d1954c694466f92f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 178,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a3101a26a47bfce7",
+    "type": "split",
+    "children": [
+      {
+        "id": "667cca5256a20ef8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71dc2050d487f516",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git & GitHub/Apuntes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d25a6115b235096d",
+  "lastOpenFiles": [
+    "Ethical Hacking/Apuntes.md",
+    "Git & GitHub/Apuntes.md",
+    "Ethical Hacking/SDLC.png",
+    "Ethical Hacking/Criptografía.png",
+    "Pasted image 20220702222410.png.md",
+    "url.md",
+    "Git & GitHub/Clase 02.md",
+    "Git & GitHub/Clase 03.md"
+  ]
+}

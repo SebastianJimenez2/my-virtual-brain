@@ -1,0 +1,5 @@
+- Aumentar la motivación
+- Mejora las habilidades
+- Promueve la participación activa
+- Permite aumentar la dificultad
+- Estimular las conexiones sociales

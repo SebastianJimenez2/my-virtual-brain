@@ -1,0 +1,2 @@
+Cualitativa
+documento

@@ -1,0 +1,1 @@
+Es limitado por las capacidades del teléfono y también a la torre de telefonía móvil 

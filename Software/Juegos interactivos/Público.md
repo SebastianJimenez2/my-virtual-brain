@@ -1,0 +1,1 @@
+Es la audiencia objetivo que los diseñadores de juegos necesitan especificar

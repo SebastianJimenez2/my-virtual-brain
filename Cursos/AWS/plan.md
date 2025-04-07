@@ -1,0 +1,1 @@
+Muestra cambios requeridos para la configuración actual.

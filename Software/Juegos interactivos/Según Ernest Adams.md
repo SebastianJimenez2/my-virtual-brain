@@ -1,0 +1,2 @@
+- El juego surge como el acto de "jugar"
+- El juego surge como el acto de fingir

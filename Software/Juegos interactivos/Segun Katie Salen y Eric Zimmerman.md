@@ -1,0 +1,6 @@
+- El juego e sun sistema
+- El juego tiene jugadores
+- El juego es ficticio
+- El juego tiene ==conflictos==
+- ==El juego tiene reglas==
+- El juego tiene resultados cuantificables

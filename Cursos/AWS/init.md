@@ -1,0 +1,1 @@
+Prepara el ambiente de trabajo para otros comandos.

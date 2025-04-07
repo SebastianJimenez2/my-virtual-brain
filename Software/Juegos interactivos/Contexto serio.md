@@ -1,0 +1,1 @@
+Se refiere al contenido pedagógico, o a cualquier contenido con un propósito fuera del entretenimiento

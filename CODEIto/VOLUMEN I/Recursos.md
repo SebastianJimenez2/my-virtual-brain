@@ -1,0 +1,3 @@
+- [Matriz de acreditación](https://carlosiniguezec.com/acreditacionsw/public/")
+	- En la matriz se muestra la trazabilidad entre los OC con los RA de cada materia, asimismo, se observa la trazabilidad hacia los OE
+	- Cada asignatura muestra un match entre los RA y los OC

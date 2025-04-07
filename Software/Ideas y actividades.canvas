@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"bb3297aaa07d81a2","type":"text","text":"Traer una lista de empresas.","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"b5d62bdcb5c3f14a","type":"text","text":"Ver Mr. Robot","x":-125,"y":60,"width":250,"height":60},
+		{"id":"c5578116bce75b14","x":160,"y":-30,"width":250,"height":60,"type":"text","text":"¿Cómo estamos poniendo la calificación?"}
+	],
+	"edges":[]
+}

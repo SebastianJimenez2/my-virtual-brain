@@ -1,0 +1,4 @@
+- [[Procesos por niveles]]
+- [[Procesos estratégicos]]
+- [[Procesos operativos]]
+- [[Procesos de apoyo]]

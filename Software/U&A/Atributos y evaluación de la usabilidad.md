@@ -1,0 +1,5 @@
+- Facilidad de aprendizaje
+- Velocidad de desempeño
+- Tasa de error por usuario
+- Retención en el tiempo
+- Satisfacción subjetiva

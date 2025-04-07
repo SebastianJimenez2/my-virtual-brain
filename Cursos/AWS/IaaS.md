@@ -1,0 +1,1 @@
+Es un acercamiento a la automatización de la ifraestructura basado en prácticas de desarrollo de software.

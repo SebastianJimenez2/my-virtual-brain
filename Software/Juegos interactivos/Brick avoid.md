@@ -1,0 +1,1 @@
+Evitar acciones que nos hacen perder

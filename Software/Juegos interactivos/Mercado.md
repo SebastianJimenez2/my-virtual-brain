@@ -1,0 +1,1 @@
+Refleja únicamente los dominios objetivo que "utilizarán" el juego.

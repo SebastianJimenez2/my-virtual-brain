@@ -1,0 +1,1 @@
+Qué pasa con los datos desde que nace el sistema hasta que mueren o repasan, deben ser íntegros, no se deben modificar, cuando se modifica ya no es el mismo, ya no sirve.

@@ -1,0 +1,6 @@
+- [[Planificación]] 
+- [[Análisis de requerimientos]]
+- [[Diseño]]
+- [[Construcción]] 
+- [[Pruebas]] 
+- [[Mantenimiento / Evolución]]

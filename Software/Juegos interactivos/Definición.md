@@ -1,0 +1,2 @@
+Estos juegos tienen un propósito educativo explícito y cuidadosamente pensado y no están pensados para jugarse principalmente por diversión.
+Es una aplicación de computadora realizada por desarrolladores, investigadores, industrialistas quiénes observan como usan los juegos de video logrando relacionar las tecnologías fuera del entretenimiento.

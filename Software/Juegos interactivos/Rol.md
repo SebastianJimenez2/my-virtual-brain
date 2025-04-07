@@ -1,0 +1,1 @@
+Los jugadores desempeñan o encarnan un personaje o un grupo pequeñi de personajes

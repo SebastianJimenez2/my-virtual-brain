@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"178d026e282661b7","type":"text","text":"INGENIERÍA DE SOFTWARE","x":-180,"y":0,"width":250,"height":60,"color":"5"},
+		{"id":"4b771908b9ddfbaa","type":"text","text":"Aplicación pragmática de la ciencia","x":-180,"y":-230,"width":250,"height":60,"color":"6"},
+		{"id":"8dd02f159eef2988","type":"text","text":"Ingenieria","x":-180,"y":-130,"width":250,"height":60,"color":"6"},
+		{"id":"3e03e6fd4ca16146","type":"text","text":"- Modularidad\n- Cohesión\n- Bajo acoplamiento\n- Abstracción (extraer características, de la realidad al código)\n- Separación de intereses (permita modularizar, si algo falla, la otra parte interesada debe seguir funcionando)","x":-55,"y":300,"width":495,"height":260,"color":"#1843f2"},
+		{"id":"c43e30086a5c5145","type":"text","text":"Administrar el complejidad","x":68,"y":160,"width":250,"height":60,"color":"#1843f2"},
+		{"id":"b2b2d40592dda3ba","type":"text","text":"- Solución de problemas de software. No es el producto sino el proceso.\n- Crean soluciones eficientes y económicas\n- Tiene un enfoque empírico y científico\n- Cambio de paradigma sobre el proceso.","x":-720,"y":-160,"width":250,"height":380,"color":"4"},
+		{"id":"02250b5d16cf3d0a","type":"text","text":"Codificar","x":240,"y":5,"width":200,"height":50,"color":"1"},
+		{"id":"93b88fbc0a76cf35","type":"text","text":"Administrar el aprendizaje","x":-430,"y":160,"width":250,"height":60,"color":"#1843f2"},
+		{"id":"baae8dec2bf80c5e","type":"text","text":"- Iteración\n- Retroalimentación\n- Incrementalismo\n- Experimentación\n- Empirísmo (observar)","x":-430,"y":300,"width":250,"height":180,"color":"#1843f2"}
+	],
+	"edges":[
+		{"id":"29c22b906eee3368","fromNode":"178d026e282661b7","fromSide":"top","toNode":"8dd02f159eef2988","toSide":"bottom"},
+		{"id":"af8cc5cfb1d263a6","fromNode":"8dd02f159eef2988","fromSide":"top","toNode":"4b771908b9ddfbaa","toSide":"bottom"},
+		{"id":"309010bee430c889","fromNode":"178d026e282661b7","fromSide":"bottom","toNode":"93b88fbc0a76cf35","toSide":"right"},
+		{"id":"180fea7d3ea6471e","fromNode":"c43e30086a5c5145","fromSide":"bottom","toNode":"3e03e6fd4ca16146","toSide":"top"},
+		{"id":"62dd9e4b725a4b8f","fromNode":"93b88fbc0a76cf35","fromSide":"bottom","toNode":"baae8dec2bf80c5e","toSide":"top"},
+		{"id":"5065e3532aa12faa","fromNode":"178d026e282661b7","fromSide":"left","toNode":"b2b2d40592dda3ba","toSide":"right"},
+		{"id":"7ba7c5581842d617","fromNode":"178d026e282661b7","fromSide":"right","toNode":"02250b5d16cf3d0a","toSide":"left","label":"NO ES"},
+		{"id":"bbe0b0b4f3a93a13","fromNode":"178d026e282661b7","fromSide":"bottom","toNode":"c43e30086a5c5145","toSide":"left"}
+	]
+}

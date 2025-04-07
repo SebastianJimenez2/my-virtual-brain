@@ -1,0 +1,1 @@
+¿Quién es el que genera las transacciones? Si es una transacción verdadera o fue creada de la nada.

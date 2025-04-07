@@ -1,0 +1,1 @@
+Sin el consentimiento interés fanas a los demás, les satisface ver perder.

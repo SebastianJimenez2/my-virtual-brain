@@ -1,0 +1,5 @@
+- Black hat
+- Gray hat
+- Hacktivists
+- Cybercriminals
+- Crackers

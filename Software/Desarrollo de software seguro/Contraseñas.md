@@ -1,0 +1,2 @@
+Las contraseñas como recomendación deben estar guardadas como HASH
+Cifrado es reversible, de alguna forma se puede regresar al texto original, con el hash, no, se cambia un bit dentro del hash y se cambia todo.

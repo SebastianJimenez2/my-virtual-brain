@@ -1,0 +1,1 @@
+Efectuar una acción en un tiempo o lo más rápido posible

@@ -1,0 +1,1 @@
+Verifica si la configuración es válida. En cuanto a formato o sintaxis.

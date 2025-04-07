@@ -1,0 +1,1 @@
+Tiempo del sistema funcionando.

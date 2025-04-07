@@ -1,0 +1,1 @@
+Diseñado como soporte para intercambio de datos.

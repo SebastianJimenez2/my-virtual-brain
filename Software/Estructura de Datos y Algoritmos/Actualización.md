@@ -1,0 +1,1 @@
+Con el propósito de realizar una actualización de manera eficiente, es importante conocer si el arreglo está o no ordenado.

@@ -1,0 +1,1 @@
+Los videojuegos de acción requieren de velocidad, tiempo de reacción, destreza o reflejos rápidos y un ritmo cuidadoso para superar obstáculos

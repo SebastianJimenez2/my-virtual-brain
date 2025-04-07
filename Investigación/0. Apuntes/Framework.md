@@ -1,0 +1,3 @@
+- [[Fase de búsqueda]]
+- [[Fase de ejecución]]
+- [[Fase de extracción]]

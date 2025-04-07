@@ -1,0 +1,1 @@
+Destinado a demostrar la opinión personal de manera subjetiva. El usuario puede interpretar la información de cualquier manera.

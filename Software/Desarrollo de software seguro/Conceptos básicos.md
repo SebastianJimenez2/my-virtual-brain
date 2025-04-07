@@ -1,0 +1,8 @@
+- [[Información]]
+- La ciberseguridad abarca todo el entorno digital
+- [[Riesgo]]
+- [[Amenaza]]
+- [[Vulnerabilidades]]
+- [[Activo]]
+- Seguridad de la información => A nivel de los procesos
+- Seguridad informática => A nivel de recursos técnicos

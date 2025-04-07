@@ -1,0 +1,5 @@
+- El juego permite interacción con respuesta inmediata
+- El juego es un medio ==plástico== porque tiene la capacidad de adaptarse a cualquier tipo de tecnología
+- El juego tiene una estructura definida
+- El juego crea su propio valor interno
+- El juego es un sistema de entretenimiento

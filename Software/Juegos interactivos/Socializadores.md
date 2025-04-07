@@ -1,0 +1,1 @@
+Se sienten orgullosos de muchos de sus amigos. Les interesa más la parte social

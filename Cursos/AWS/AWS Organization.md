@@ -1,0 +1,1 @@
+	Entidad que tiene muchos componentes que ayuda a consolidar las cuentas de AWS
