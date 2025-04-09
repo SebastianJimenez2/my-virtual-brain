@@ -11,17 +11,14 @@
             "id": "15932e4679bf15cc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Software/Cosas para investigar.canvas",
-                "viewState": {
-                  "x": 33,
-                  "y": -100,
-                  "zoom": -0.8102616289661048
-                }
+                "file": "Software/Profesionalismo/_Profesionalismo en informática.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Cosas para investigar"
+              "icon": "lucide-file",
+              "title": "_Profesionalismo en informática"
             }
           }
         ]
@@ -171,9 +168,12 @@
   },
   "active": "15932e4679bf15cc",
   "lastOpenFiles": [
+    "Software/Profesionalismo/Teoría de la estupidez.png",
+    "Software/Profesionalismo/_Profesionalismo en informática.md",
+    "Software/Estructura de Datos y Algoritmos/1. Principal Estructura.md",
+    "Software/Cosas para investigar.canvas",
     "Software/V&V/Verificación y Validación.md",
     "Software/Ideas y actividades.canvas",
-    "Software/Cosas para investigar.canvas",
     "Software/U&A/Asequibilidad.md",
     "Software/02 Propuesta mapa itinerario.canvas",
     "Software/U&A/Atributos y evaluación de la usabilidad.md",
@@ -197,10 +197,7 @@
     "Cursos/Expo Arquitectura/Implementación.md",
     "Cursos/Expo Arquitectura/Mantenimiento.md",
     "Cursos/Expo Arquitectura/Diseño.md",
-    "Cursos/Expo Arquitectura/Arquitectura.md",
-    "Cursos/Expo Arquitectura/Análisis.md",
     "Cursos/Expo Arquitectura/Pasted image 20250218100541.png",
-    "Cursos/Ethical Hacking/Criptografía.png",
-    "Cursos/Ethical Hacking/Apuntes.md"
+    "Cursos/Ethical Hacking/Criptografía.png"
   ]
 }

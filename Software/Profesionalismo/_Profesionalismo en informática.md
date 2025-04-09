@@ -17,6 +17,9 @@ Se debe conocer lo que hay en el mercado laboral
 Moraleja: siempre tiene que hacer una constante.
 
 ---
+# Teoría de la estupidez
+![[Teoría de la estupidez.png]]
+
 # Habilidades duras
 ![[Habilidades duras]]
 
