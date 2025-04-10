@@ -10,4 +10,4 @@ Es más seguro del momento es:
 - RSA => 1024 bits 
 - ECC => 156, 192 bits
 
-![[Pasted image 20241010092404.png]]
+![[Asymmetric Encryption.png]]

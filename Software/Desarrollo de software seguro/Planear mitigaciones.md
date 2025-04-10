@@ -3,4 +3,4 @@
 * Deshabilitar la característica
 * Advertir al usuario
 * Contrarrestar la amenaza con tecnología
-![[Pasted image 20241105075229.png]]
+![[Mitigation Technique.png]]

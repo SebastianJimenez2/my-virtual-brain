@@ -11,14 +11,17 @@
             "id": "15932e4679bf15cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Software/Profesionalismo/_Profesionalismo en informática.md",
-                "mode": "source",
-                "source": false
+                "file": "Software/V&V/Cosas para investigar.canvas",
+                "viewState": {
+                  "x": 33,
+                  "y": 275.07994117647064,
+                  "zoom": -0.8102616289661048
+                }
               },
-              "icon": "lucide-file",
-              "title": "_Profesionalismo en informática"
+              "icon": "lucide-layout-dashboard",
+              "title": "Cosas para investigar"
             }
           }
         ]
@@ -166,38 +169,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15932e4679bf15cc",
+  "active": "62f8448b3a16df11",
   "lastOpenFiles": [
-    "Software/Profesionalismo/Teoría de la estupidez.png",
+    "Software/V&V/Ingeniería de Software (mapa mental).canvas",
+    "Software/Juegos interactivos/1. Imágenes JI/GPS.png",
+    "Software/V&V/1. Imágenes VyV",
+    "Software/Profesionalismo/1. Imágenes PeI",
+    "Software/Juegos interactivos/1. Imágenes JI",
+    "Software/Automatización de procesos/_Fundamentos de automatización de procesos.md",
+    "Software/Desarrollo de software seguro/Imágenes DSS",
+    "Software/Desarrollo de software seguro/Imágenes DSS/Mitigation Technique.png",
+    "Software/Desarrollo de software seguro/Imágenes DSS/Spoofing.png",
+    "Software/Desarrollo de software seguro/Pasted image 20241021101153.png",
+    "Software/Desarrollo de software seguro/Imágenes DSS/Diagrama.png",
+    "Software/Desarrollo de software seguro/Imágenes DSS/Asymmetric Encryption.png",
+    "Software/Desarrollo de software seguro/Imágenes DSS/Symmetric Encryption.png",
+    "Software/Desarrollo de software seguro/Symmetric Encryptation.png",
+    "Software/Desarrollo de software seguro/_Introducción a desarrollo de software seguro.md",
+    "Software/Estructura de Datos y Algoritmos/_Principal Estructura.md",
+    "Software/HCI/_Interacción Humano Computador.md",
+    "Software/Juegos interactivos/_Introducción a juegos interactivos.md",
+    "Software/Juegos interactivos/Juegos interactivos.md",
+    "Software/Redes y Conectividad/Pruebas/Prueba 2.md",
+    "Software/Redes y Conectividad/_Principal Redes.md",
+    "Software/Sistemas Operativos/_Principal SO.md",
+    "Software/U&A/_Usabilidad y Accesibilidad.md",
+    "Software/V&V/_Verificación y Validación.md",
     "Software/Profesionalismo/_Profesionalismo en informática.md",
-    "Software/Estructura de Datos y Algoritmos/1. Principal Estructura.md",
-    "Software/Cosas para investigar.canvas",
-    "Software/V&V/Verificación y Validación.md",
+    "Software/Profesionalismo/1. Imágenes PeI/Teoría de la estupidez.png",
+    "Software/V&V/Cosas para investigar.canvas",
     "Software/Ideas y actividades.canvas",
     "Software/U&A/Asequibilidad.md",
     "Software/02 Propuesta mapa itinerario.canvas",
     "Software/U&A/Atributos y evaluación de la usabilidad.md",
     "Software/U&A/Signifiers.md",
     "Software/U&A/Usabilidad.md",
-    "Software/U&A/Usabilidad y Accesibilidad.md",
-    "Software/HCI/Interacción Humano Computador.md",
     "Software/Formulación y evaluación de proyectos/Introducción a FEP.md",
     "Software/Business Intelligence/Componentes.md",
     "Software/Business Intelligence/Modelado de datos.md",
     "Software/Business Intelligence/Objetivos.md",
     "Software/Business Intelligence/Fundamentos de BI.md",
-    "Software/Automatización de procesos/Fundamentos de automatización de procesos.md",
     "Cursos/Python/Python.md",
     "Cursos/Microservicios/Microservicio.md",
     "Cursos/Laravel/LARAVEL.md",
     "Cursos/JavaScript/JavaScript.md",
-    "Cursos/Git & GitHub/Apuntes.md",
-    "Cursos/Expo Arquitectura/Pruebas.md",
-    "Cursos/Expo Arquitectura/Requerimientos.md",
-    "Cursos/Expo Arquitectura/Implementación.md",
-    "Cursos/Expo Arquitectura/Mantenimiento.md",
-    "Cursos/Expo Arquitectura/Diseño.md",
-    "Cursos/Expo Arquitectura/Pasted image 20250218100541.png",
-    "Cursos/Ethical Hacking/Criptografía.png"
+    "Cursos/Expo Arquitectura/Pasted image 20250218100541.png"
   ]
 }

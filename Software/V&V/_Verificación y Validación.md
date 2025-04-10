@@ -152,9 +152,4 @@ Se logra con:
 3. Agile Methods
 4. Engineering Discipline
 # Pirámide
-**![[Pirámide.png]]**
-
----
-# [[Exposiciones]]
----
-# Atributos de calidad
+**![[Pirámide.png]]

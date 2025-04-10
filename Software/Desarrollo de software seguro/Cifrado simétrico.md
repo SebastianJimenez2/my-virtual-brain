@@ -2,5 +2,5 @@ El cifrado simétrico, también conocido como cifrado de clave secreta, usa una 
 
 El más seguro es: AES-256
 
-![[Pasted image 20241010092323.png]]
+![[Symmetric Encryption.png]]
 
