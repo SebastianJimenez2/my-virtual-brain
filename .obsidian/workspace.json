@@ -11,17 +11,14 @@
             "id": "15932e4679bf15cc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Software/V&V/Cosas para investigar.canvas",
-                "viewState": {
-                  "x": 33,
-                  "y": 275.07994117647064,
-                  "zoom": -0.8102616289661048
-                }
+                "file": "Software/V&V/_Verificación y Validación.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Cosas para investigar"
+              "icon": "lucide-file",
+              "title": "_Verificación y Validación"
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "4p",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,13 +147,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "195ee1cc6d0aefca",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,11 +173,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62f8448b3a16df11",
+  "active": "15932e4679bf15cc",
   "lastOpenFiles": [
+    "Software/V&V/Repaso.md",
+    "Software/V&V/_Verificación y Validación.md",
+    "Software/V&V/4P's.md",
+    "Software/V&V/Cosas para investigar.canvas",
+    "2025-04-10.md",
+    "Untitled.md",
     "Software/V&V/Ingeniería de Software (mapa mental).canvas",
     "Software/Juegos interactivos/1. Imágenes JI/GPS.png",
     "Software/V&V/1. Imágenes VyV",
@@ -194,10 +208,8 @@
     "Software/Redes y Conectividad/_Principal Redes.md",
     "Software/Sistemas Operativos/_Principal SO.md",
     "Software/U&A/_Usabilidad y Accesibilidad.md",
-    "Software/V&V/_Verificación y Validación.md",
     "Software/Profesionalismo/_Profesionalismo en informática.md",
     "Software/Profesionalismo/1. Imágenes PeI/Teoría de la estupidez.png",
-    "Software/V&V/Cosas para investigar.canvas",
     "Software/Ideas y actividades.canvas",
     "Software/U&A/Asequibilidad.md",
     "Software/02 Propuesta mapa itinerario.canvas",
@@ -210,9 +222,6 @@
     "Software/Business Intelligence/Objetivos.md",
     "Software/Business Intelligence/Fundamentos de BI.md",
     "Cursos/Python/Python.md",
-    "Cursos/Microservicios/Microservicio.md",
-    "Cursos/Laravel/LARAVEL.md",
-    "Cursos/JavaScript/JavaScript.md",
     "Cursos/Expo Arquitectura/Pasted image 20250218100541.png"
   ]
 }
