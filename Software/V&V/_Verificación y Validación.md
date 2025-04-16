@@ -1,14 +1,14 @@
-##### [[Repaso]]
+#### [[Repaso]]
 ---
-##### [[Proyecto]]
-##### [[Retroalimentación]]
+#### [[Proyecto]]
+#### [[Retroalimentación]]
 ---
 Verificamos lo que elicitamos.
 
 Todo proyecto se enmarca en lo siguiente:
 - Tiempo (limitado)
 - Costo (limitado)
-- Alcance (el agilismo se enfoca en este punto)
+- Alcance (el agilismo se enfoca en este punto) 
 > Si una se ve afectada, las demás igual.
 
 Minimizar el alcance minimiza el ==riesgo==. Si existe un proyecto grande, la mejor solución es dividirlo en iteraciones (features) es ir escalando poco a poco.

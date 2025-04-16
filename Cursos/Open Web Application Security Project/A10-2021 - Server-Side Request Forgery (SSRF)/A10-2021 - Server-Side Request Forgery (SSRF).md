@@ -1,0 +1,7 @@
+---
+
+> • [**A10:2021-Server-Side Request Forgery**](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) is added from the Top 10 community survey (#1). The data shows a relatively low incidence rate with above average testing coverage, along with above-average ratings for Exploit and Impact potential. This category represents the scenario where the security community members are telling us this is important, even though it's not illustrated in the data at this time.
+---
+[[Cursos/Open Web Application Security Project/A10-2021 - Server-Side Request Forgery (SSRF)/Notes/Notes|Notes]]
+[[Cursos/Open Web Application Security Project/A10-2021 - Server-Side Request Forgery (SSRF)/Doubts/Doubts|Doubts]]
+[[Cursos/Open Web Application Security Project/A10-2021 - Server-Side Request Forgery (SSRF)/Labs/Labs|Labs]]

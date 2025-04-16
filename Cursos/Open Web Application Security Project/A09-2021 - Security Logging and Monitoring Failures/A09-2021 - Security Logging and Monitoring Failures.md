@@ -1,0 +1,7 @@
+---
+
+> • [**A09:2021-Security Logging and Monitoring Failures**](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/) was previously **A10:2017-Insufficient Logging & Monitoring** and is added from the Top 10 community survey (#3), moving up from #10 previously. This category is expanded to include more types of failures, is challenging to test for, and isn't well represented in the CVE/CVSS data. However, failures in this category can directly impact visibility, incident alerting, and forensics.
+---
+[[Cursos/Open Web Application Security Project/A09-2021 - Security Logging and Monitoring Failures/Notes/Notes|Notes]]
+[[Cursos/Open Web Application Security Project/A09-2021 - Security Logging and Monitoring Failures/Doubts/Doubts|Doubts]]
+[[Cursos/Open Web Application Security Project/A09-2021 - Security Logging and Monitoring Failures/Labs/Labs|Labs]]

@@ -1,0 +1,7 @@
+---
+
+> • [**A02:2021-Cryptographic Failures**](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/) shifts up one position to #2, previously known as **A3:2017-Sensitive Data Exposure**, which was broad symptom rather than a root cause. The renewed name focuses on failures related to cryptography as it has been implicitly before. This category often leads to sensitive data exposure or system compromise.
+---
+[[Cursos/Open Web Application Security Project/A02-2021 - Cryptographic Failures/Notes/Notes|Notes]]
+[[Cursos/Open Web Application Security Project/A02-2021 - Cryptographic Failures/Doubts/Doubts|Doubts]]
+[[Cursos/Open Web Application Security Project/A02-2021 - Cryptographic Failures/Labs/Labs|Labs]]

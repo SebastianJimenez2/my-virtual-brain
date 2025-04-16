@@ -1,0 +1,3 @@
+---
+description: Elimina un registro
+---

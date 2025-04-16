@@ -1,7 +1,8 @@
 [
-  "yet-another-obsidian-synchronizer",
   "obsidian-git",
   "obsidian-icon-folder",
   "highlightr-plugin",
-  "obsidian-annotator"
+  "obsidian-annotator",
+  "obsidian-linter",
+  "obsidian-importer"
 ]
