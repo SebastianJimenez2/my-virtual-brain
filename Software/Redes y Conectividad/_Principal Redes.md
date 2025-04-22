@@ -1,8 +1,6 @@
 Cuando el humano interviene, deja de ser IoT y pasa a ser telemática
-
 ### Redes de Datos
 Envío y recepción de la información entre dispositivos
-
 ### Componentes
 * ***Dispositivos finales.*** 
 	* Permiten la interacción entre la red humana y toda la red de comunicaciones. Ejemplo: computador. En otras palabras, son los dispositivos que usamos nosotros los humanos. 

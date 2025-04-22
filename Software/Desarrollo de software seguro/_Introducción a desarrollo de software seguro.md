@@ -3,8 +3,6 @@
 - **Funcionalidad**. Si se cumplen con los requisitos FUNCIONALES. Los requisitos NO FUNCIONALES deben ser documentados y tomados en consideración siempre.
 
 La escases de documentación del código generan ==brechas de seguridad==.
-
----
 # Preguntas interesantes
 **¿Por qué debe existir seguridad?**
 - Por que se maneja información confidencial y delicada
@@ -29,8 +27,6 @@ La seguridad trata de proteger datos del usuario
 - [[Principios importantes]]
 - [[Actores de la ciberseguridad]]
 - [[Mecanismos]]
-
----
 # Fundamentos de seguridad
 > Todo lo que tenga que ver con ==cifrado== es reversible.
 - [[Contraseñas]]
@@ -38,17 +34,12 @@ La seguridad trata de proteger datos del usuario
 - [[Cifrado simétrico]]
 - [[Cifrado asimétrico]]
 - [[HASH]]
----
 # "Metodologías" de seguridad
 - [[Modelado de amenazas]]
----
 # Requerimientos de seguridad
 * Ecuador es el ==tercer== país con más ciberataques
----
 # Anonimización
 La anonimización es el proceso de modificar los datos personales e manera que no se puede identificar a una individuo. Con esto se busca proteger la identidad de las personas y prevenir la divulgación de información sensible.
-
----
 # Arquitectura Zero Trust
 Es un marco de seguridad,  ningún usuario se puede confiar implícitamente, incluso si se encuentra dentro de la red de la organización.
 Es un nuevo paradigma de seguridad.

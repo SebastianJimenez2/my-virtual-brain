@@ -1,31 +1,26 @@
-### ¿Qué es una estructura?
+## ¿Qué es una estructura?
 El medio de almacenamiento en el cual va a ingresarse valores de diferentes datos
-
-### ¿Qué son datos?
+## ¿Qué son datos?
 Son los pensamientos o letras de una recopilación de información, puede ser cualitativa o cuantitativa..
 Un dato al combinarse con otro produce información
-
-### ¿Qué es una estructura de datos?
+## ¿Qué es una estructura de datos?
 Es simplemente una colección de datos que se caracteriza por su organización y operaciones que se pueden realizar sobre ellas.
 
 Las estructuras de datos nos permiten hacer
 	- Manipulación de los datos
 	- Almacenamiento de datos
 	- Ordenar los datos
-
-### Operaciones básicas
+## Operaciones básicas
 Adicionar datos
 Recorrer datos
 Buscar datos
 Eliminar datos
-
-### Importancia
+## Importancia
 Al organizar los datos en una estructura la eficiencia con la que se maneja es mas eficaz al momento de su ejecución:
 	- Eficiencia
 	- Estructura, son estructuralmente ricas para procesamiento de datos
 	- Simples en su estructura de datos
-
-### Clasificación de las Estructuras de Datos
+## Clasificación de las Estructuras de Datos
 **Primitivas.-** Palabras reservadas de un lenguaje de programación
 Un tipo primitivo está predefinido por el lenguaje y se nombre con una palabra clave reservada.
 	- char
@@ -42,42 +37,36 @@ Un tipo primitivo está predefinido por el lenguaje y se nombre con una palabra 
 	- *No lineales*, se caracterizan por no poseer el principio adyacente, es decir están almacenadas contiguamente entre ellas
 		- Árboles
 		- Grafos
-		
 **Estáticas.-** Tiene un numero fijo de elementos que queda determinado en la declaración al comienzo del programa.
 	- Arreglos
 	- Matrices
-	
-### ¿Que se entiende por algoritmo?
+## ¿Que se entiende por algoritmo?
 Es un método o un proceso, un conjunto de instrucciones utilizadas para resolver un problema específico.
-
-> Desde un punto de vista más formal y riguroso: Es un conjunto ordenado de pasos o instrucciones ejecutables
+>[!Note]
+>Desde un punto de vista más formal y riguroso: Es un conjunto ordenado de pasos o instrucciones ejecutables
 
 Para esto se usa un [[Pseudocódigo]]
 El diseño de un algortimo para ser implementado debe ser fácil de entender, codificar y depurar
-
-### Diagrama de flujo
+## Diagrama de flujo
 No es lo mismo un diagrama de flujo a un algoritmo.
 
 Un diagrama de flujo, es una representacion grafica de un proceso. Cada paso del proceso se representa por un símbolo diferente que contiene una breve descripción de la etapa de proceso.
-
-### Propiedades de los algoritmos
+## Propiedades de los algoritmos
 1. Un algoritmo tiene un inicio
 2. Existe una especificación precisa de la entrada
 3. Especificación precisa de cada instrucción
 4. Etapas bien definidas y concretas
 5. Numero finito de pasos
 6. Un algoritmo debe terminar
-
-### Programa
+## Programa
 Un programa de computadora es una representación concreta de un algoritmo en un lenguaje de programación
 	- Que sea facil de entender, codificar y depurar
 	- Que consiga la mayor eficiencia para los recursos de la computador.
 
-## Tipos abstractos de datos ([[TAD]])
+# Tipos abstractos de datos ([[TAD]])
 Es un tipo de dato definido por el programador se denomina tipo abstracto de datos ([[TAD]]) para diferenciarlo del tipo fundamental (predefinido) de datos.
 
 En esencia, un tipo abstracto es un tipo de dato que consta de datos (estructuras de datos propias) y operaciones que se pueden realizar sobre ellos.
-
 ***Ventajas***
 	1. Mejoran la conceptualizacion y hacen más caro y comprensible el código
 	2. Hacen que el sistema sea más robusto
@@ -85,11 +74,9 @@ En esencia, un tipo abstracto es un tipo de dato que consta de datos (estructura
 	4. Permiten modificar la implementación sin que afecte al interfaz público
 	5. Facilitan la extensibilidad
 	6. Recogen mejor la semántica del tipo
-
-### [[Clase]] y [[Objeto]]
+# [[Clase]] y [[Objeto]]
 Son los elementos clave sobre los que se articula la POO.
-
-### Visibilidad de los Miembros de una [[Clase]]
+## Visibilidad de los Miembros de una [[Clase]]
 Un principio fundamental en programación orientada a objetos es la ocultación de la información que significa que a determinados datos no se puede acceder a diferencia de los públicos.
 
 ```
@@ -99,38 +86,30 @@ class Nombre_Class {
 	public (se accede por cualquier lado)
 }
 ```
-
-### Constructor
+## Constructor
 Un constructor es un método que se ejecuta automáticamente cuando se crea un objeto de una clase. Sirve para inicializar los miembros de la clase.
-
-> ***El constructor tiene el mismo nombre que la clase y tiene parámetros***
+>[!Importante]
+>***El constructor tiene el mismo nombre que la clase y tiene parámetros***
 
 Argumento son los datos que envías.
-
-### Contructor por defecto
+## Contructor por defecto
 Es un constructor que no tiene parámetros. Normalmente inicializa los miembros dato de la clase con valores por defecto.
-
-### Constructor sobrecargado
+## Constructor sobrecargado
 Son bastante frecuentes y proporcionan diferentes alternativas para inicializar objetos
-
-### Estructura de una clase
+## Estructura de una clase
 1. Paquete
 2. Imports
 3. Declaración de la clase
 4. Variables
 5. Constructores
 6. Métodos
-
-## Arreglos
+# Arreglos
 Arreglo es una secuencia de datos con un número fijo de componentes, todos del mismo tipo.
-
-### **Arreglo unidimensional:** 
+## Arreglo unidimensional 
 Un arreglo unidimensional es finito, homogéneo y ordenado. Una sola dimensión. Cada componente del arreglo se puede acceder mediante un índice. La dimensión se maneja por un par de corchetes "[]"
-
-#### **¿Para que sirven los arreglos?**
+## ¿Para que sirven los arreglos?
 Nos sirven para manejar de fomra sencilla y directa conjuntos de datos del mimso tipo.
-
-#### **¿Cómo se puede ver a un arreglo?**
+## ¿Cómo se puede ver a un arreglo?
 Un arreglo se puede ver como un conjunto de espacios finitos donde se almacenan elementos todos del mismo tipo
 
 Las partes en los arreglos:
@@ -145,58 +124,50 @@ ident_arreglo = ARREGLO [líminf...límsup] DE TIPO
 * *Tipo*, es el tipo de dato para todos los componentes del arreglo.
 
 Número total de componentes = lim sup - lim inf + 1
-
-#### Declaración de Arreglos
+### Declaración de Arreglos
 La declaración de un arreglo se lo realiza de forma similar a otros tipos de datos, especificando que es un arreglo, utilizando corchete.
 ```
 TipoDeDato Arreglo[]
 ```
-
-#### Creación de un Arreglo
+### Creación de un Arreglo
 La creación de un arreglo se hace de la siguiente forma utilizando el operado new:
 ```
 Tipo nombre_del_arreglo[] = new Tipo[número de elementos]
 ```
-
-#### Declaración e inicialización
+### Declaración e inicialización
 Para declarar e inicializar un arreglo unidimensional se tiene la siguiente sintaxis:
 ```
 TipoDeDato nombre[] = {val1, val2, ..., valn}
 ```
-
-#### Operaciones con Arreglos Unidimensionales
+### Operaciones con Arreglos Unidimensionales
 Podemos clasificar a las operaciones en las que intervienen arreglos de la siguiente manera:
 * [[Lectura]] / [[Escritura]]
 * [[Asignación]]
 * [[Actualización]]: [[Inserción]], [[Elimincación]], modificación
 * Ordenación
 * Busqueda
-
-### Arreglos Bidimensionales
+## Arreglos Bidimensionales
 * Se los conoce tamién como matrices
 * Es un conjunto de datos de un mismo tipo que están almacenados en arreglos de dos dimiensiones
 * Tiene una cantidad de filas y columnas
 * Al igual que los arreglos unidimensionales los índices comienzas a partir de 0 o 1 y se indican entre corchetes
 * *Representación gráfica:*
 ![[Representación Gráfica.png]]
-
-#### Características
+## Características
 * Almacena elementos del mismo tipo.
 * Tamaño fijo (mxn).
 * Cada espacio se referencia con índices.
 * El primer índice refiere a las filas.
 * El segundo índice refiera a las columnas.
 * Es un arreglo bidimensional de mxn sus índices irán de 0 a m-1 para las filas y de 0 a n-1 para las columnas.
-
-#### Declaración 
+## Declaración 
 Se declara con la siguiente sintaxis:
 ```
 id_arreglo = ARREGLO[liminf..limsup][liminf...limsup] de TIPO
 ```
 
 NTC = (limsup - liminf + 1) x (limsup - liminf + 1)
-
-#### Creación de arreglo bidimensional
+## Creación de arreglo bidimensional
 ```
 tipoDeDato nombre[][] = new tipoDeDato[m][n]
 ```
@@ -206,8 +177,7 @@ tipoDeDato nombre[][] = new tipoDeDato[m][n]
 ```
 String nombres[][] = new String[3][2]
 ```
-
-#### Lectura
+## Lectura
 ```
 Repetir i desde 1 hasta 10
 	Repetir con j desde 1 hasta 5
@@ -218,8 +188,7 @@ fin
 Para  i = 1 y j = 1 --> 1, 1
 	  i = 1 y j = 2 --> 1, 2
 ```
-
-#### Escritura
+## Escritura
 ```
 Repetir i desde 1 hasta 10
 	Repetir con j desde 1 hasta 5
@@ -230,8 +199,7 @@ fin
 Para i = 1 y j = 1 --> 1, 1
 	 i = 1 y j = 2 --> 1, 2
 ```
-
-#### Asignación
+## Asignación
 ```
 Depende del número de componentes involucrados
 
@@ -244,11 +212,9 @@ fin
 Para i = 1 y j = 1 --> M[1][1] = 0
 	 i = 1 y j = 2 --> M[1][2] = 0
 ```
-
-### Ejemplo
+## Ejemplo
 ![[Código Bidimensional.png]]
-
-### Arreglos multidimensionales
+# Arreglos multidimensionales
 Los arreglos multidimensionales tienen N dimensiones, las dimensiones se manejan por medio de corchetes, dentro de los que se escriben los valores de cada dimensión.
 
 Como una coleccion de n componentes por ejemplo:
@@ -264,7 +230,7 @@ A = ARREGLO[LI1...LS1, LI2...LS2, LI3...LS3, LIn...LSn] de TIPO
 ***¿Conociendo la definicion de un arreglo multidimensional como se realiza el calculo del NTC?***
 - NTC = (LS1 - LI1 + 1) x (LS2 - LI2 + 1) x ... x (LSn - LIn + 1)
 
-#### Operación de Inserción
+## Operación de Inserción
 Escribir un algoritmo que nos permita ingresar e imprimir los valores en un arreglo tridimensional A de 2, 4, 2
 ```
 1. A = ARREGLO[1...2, 1...4, 1...2] de TIPO
@@ -283,7 +249,6 @@ Escribir un algoritmo que nos permita ingresar e imprimir los valores en un arre
 	fin
    fin
 ```
-
 #### Ejemplos donde se aplican Arreglos Multidimensionales
 Una florícola lleva un registro del total producido mensualmente por tipo de flores; La florícola conta de 6 tipos de flores y la información se ha registrado a lo largo de los últimos 4 años
 ```
@@ -328,20 +293,17 @@ NTC = 288
 
 #### Código
 ![[Código Multidimensional.png]]
-
-### [[EDA]] Tipo Pila
+# [[EDA]] Tipo Pila
 Una pila representa un estructura lineal de datos en que se puede agregar o quitar elementos únicamente por uno de los dos extremos
 
 En consecuencia, los elementos de una pila se eliminan en el orden inverso al que se insertaron. Se manejan con la lógica LIFO.
 
 Se define formalmente como una colección ordenada de elementos a los cuales solo se puede acceder por un único lugar o extremo de la pila.
 Este extremo se conoce generalmente como tope o cima.
-
-##### ¿Qué aplicaciones utilizan los Pilas?
+## ¿Qué aplicaciones utilizan los Pilas?
 * **Editores de texto**, en el botón de deshacer cuando se cancela las operaciones de edición recientes y restablece el estado anterior del documento. La secuencia de operaciones recientes se mantiene en una pila.
 * Los **navegadores** permiten habitualmente volver hacia atrás en la secuencia de páginas visitadas. Las direcciones de los sitios visitados se almacenan en una pila.
-
-##### ¿Cómo se representan las pilas?
+## ¿Cómo se representan las pilas?
 **No son estructuras fundamentales de datos**; es decir, no están definidas como tales en los lenguajes de programación.
 
 Para su representación requieren de otras EDs, como:
@@ -351,8 +313,7 @@ Para su representación requieren de otras EDs, como:
 Al utilizar un array para contener los elementos de la pila hay que tener en cuenta que **el tamaño de la pila no puede exceder el número de elementos del array,** y la condición pila llena será significativa para el diseño.
 
 Se debe definir un **tamaño máximo** de la pila, así como una variable auxiliar a la que se denomina **TOPE**.
-
-### Tipos de Pila
+## Tipos de Pila
 |Tipo|Descripción|
 |---|---|
 |**Pila llena.**|  Tope = Máximo|
@@ -362,23 +323,20 @@ Se debe definir un **tamaño máximo** de la pila, así como una variable auxili
 **Representación Gráfica:**
 ![[Pilas.png]]
 
-##### ¿Qué consideraciones se tiene si se trabaja con arreglos?
+## ¿Qué consideraciones se tiene si se trabaja con arreglos?
 * Al utilizar arreglos para implementar pilas se tiene la limitación de que se debe reservar espacio de memoria con anticipación, característica propia de arreglos
 * Una vez dado un máximo de capacidad a la pila no es posible insertar un número de elementos mayor al máximo establecido
 * Si la pila estuviera llena y se inserta un nuevo elemento, se producirá un erro conocido como desbordamiento -overflow-
-
-##### Posibles soluciones
+## Posibles soluciones
 * Consiste en definir pilas de gran tamaño, pero esto resulta ineficiencia y costoso si solo se utilizarán algunos elementos. No siempre es viable saber con exactitud el número de elementos a tratar, y siempre existe la posibilidad de que ocurra un error de desbordamiento.
 * Consiste en usar espacios compartidos de memoria para la implementación de pilas.
-
-#### Operaciones
+## Operaciones
 Para el caso de las pilas, las operaciones básicas que se pueden llevar a cabo son:
 * Insertar (push)
 * Eliminar (pop)
 y las operaciones auxiliares
 * Pila vacía
 * Pila llena 
-
 ```
 Pila vacia (pila, tope, B)
 {Tope <-- entero, B <-- boolean}
@@ -426,48 +384,41 @@ Quitar Pila (pila, tope, DATO)
 	   TOPE <-- TOPE - 1
    }
 ```
-
-#### Aplicaciones de Pilas
+## Aplicaciones de Pilas
 * Llamadas a subprogramas
 * Recursividad
 * Tratamiento de operaciones aritméticas
 
 ![[Programas.png]]
 
-#### Prioridad de operadores
+## Prioridad de operadores
 |Operadores|Proprodad Dentro Pila|Prioridad Fuera Pila|
 |---|---|---|
 |^|3|4|
 |x, /|2|2|
 |+,-|1|1|
 |(|0|5|
-### Algoritmo de pasos de notación infija a postfija (completo)
+# Algoritmo de pasos de notación infija a postfija (completo)
 ![[Infijo a postfijo.png]]
 
-##### Ejemplo
+## Ejemplo
 ![[Ejercicio infijo a postfijo.png]]
-
-### Algoritmo de pasos de notación infija a postfija (reducido)
+# Algoritmo de pasos de notación infija a postfija (reducido)
 ![[Infijo a postfijo corto.png]]
-
-
-### EDA Tipo Cola
+# EDA Tipo Cola
 Constituye una estructura lineal de datos en la que los nuevos elementos se introducen por un extremo y los ya existentes se eliminan por otro
-
-> Debido a la característica que tienen las colas reciben el nombre de estructuras FIFO
-
-##### Definición en Programación
+>[!Note]
+>Debido a la característica que tienen las colas reciben el nombre de estructuras FIFO
+## Definición en Programación
 Las colas, no existen como estructura de datos estándar en los lenguajes de programación. Se representan median el uso de:
 * Arreglos
 * Listas
 Es importante definir un tamaño máximo para la cola y dos variables auxiliares.
-
-##### Operaciones 
+## Operaciones 
 Las operaciones básicas que pueden efectuarse son:
 * Insertar un elemento en la cola
 * Eliminar un elemento de la cola
-
-##### Algoritmos para las operaciones básicas
+## Algoritmos para las operaciones básicas
 **Cola Vacía**
 ```
 Cola vacía (COLA, Frente (f), Final (F), B <variable para determinar si la estructura está llena o vacía>)
@@ -516,11 +467,10 @@ Cola vacía (COLA, Frente (f), Final (F), DATO)
     Fin Si
 ```
 
-### Tipos de cola
-#### Colas circulares
+## Tipos de cola
+### Colas circulares
 Constituye una estructura de datos lineal en el cual el siguiente elementos del último en realidad es el primero. De esta forma se utiliza de manera más eficiente la memoria de la computadora. Si se quiere insertar datos, se da la vuelta. El frente siempre permite eliminar.
-
-##### Insertar
+#### Insertar
 ```
 Intertar ColaCircular (Cola, MAX, f, Fin, D)
 MAX <-- int
@@ -544,8 +494,7 @@ f, F <-- posición CC; D <-- elemento afín
 		FinSi
 	FinSi
 ```
-
-##### Eliminar
+#### Eliminar
 ```
 Eliminar ColaCircular (Cola, MAX, f, Fin, D)
 MAX <-- int
@@ -569,8 +518,7 @@ f, F <-- posición CC; D <-- elemento afín
 		FinSi
 	FinSi
 ```
-
-##### Ejemplo de inserción / eliminación
+#### Ejemplo de inserción / eliminación
 Sea A una cola circular de 8 elementos. Inicialmente la cola está vacía (INIVIO=FIN=0). Especifique el estado de la estructura de datos luego de realizar cada una de las siguientes operaciones:
 * Insertar los elemento A,B,C,D,E,F,G,H
 * Eliminar A
@@ -580,17 +528,14 @@ Sea A una cola circular de 8 elementos. Inicialmente la cola está vacía (INIVI
 	* 7 elementos
 * *¿Hubo algún caso de error?*
 	* NO
-
-#### Doble Cola
+### Doble Cola
 Una bicola es un conjunto ordenado de elementos, al que se puede añadir o quitar elementos desde cualquier extremo del mismo. El acceso a la bicola está permitido desde cualquier extremo. Se puede afirmar que una bicola es una cola bidireccional
-
-##### Variantes de la bicola
+#### Variantes de la bicola
 Existen dos variantes:
 * **Doble cola con entrada restringida**. La inserción se hace solo por el final
 * **Doble cola con entrada restringida.** La inserción se hace por ambos lados
 ![[Pasted image 20220607080735.png]]
-
-##### Eliminar bicola entrada restringida
+#### Eliminar bicola entrada restringida
 ```
 Eliminar Bicola (Bicola, MAX, f, Fin, D)
 MAX <-- int
@@ -631,12 +576,8 @@ Constituye una estructura de datos en donde los elementos son ordenados siguiend
 	FinSi
 	Incrementar 
 Fin`.
-``` 
-
-
-
-# PASA LO DE LAS DIAPOSITIVAS DE RECURSIVIDAD AQUÍ, PORFA
-
+```
+# RECURSIVIDAD
 La recursividad es un tópico muy importante que es examinado frecuentemente en cursos que estudian la resolución de algoritmos y estructuras de datos
 
 En matemáticas existen numerosas funciones que tienen carácter recursivo, de igual modo en la vida ordinaria.
@@ -662,17 +603,14 @@ metodo 1 (...){
 	...
 }
 ```
-
-#### Importancia
+## Importancia
 En toda actividad recursiva de un problema siempre se deben establecer dos pasos diferentes y muy importantes
 - El paso básico
 - El paso recursivo 
-
-#### Consideraciones
+## Consideraciones
 * Una función no recursiva a pesar de parece más sencilla y más frecuente no puede dar solución a todos los problemas planteados
 - Una función recursiva en cambio da in programa más sencillo y más elegante. Además hay muchos problemas cuas respuestas se plantean de forma recursiva.
-
-Recursividad
+## Ejemplos
 ``` java
 Factorial Número
 	 -> 1            si n = 0 o n = 1; 
@@ -727,15 +665,10 @@ P(a, b) -|
 		Hacer Potencia <-- a * Potencia(a, b - 1)
 	FinSi
 ```
-
-F
-eS UN TIÓ DE ESTRUCTURA LINEAL Y DINAMICA DE DATOS
-* lINEAL, PORQUE A CADA ELEMENTO SLE PUEDE SEGUIR SOLO OTRO ELEMENTO
-* dINAMICA, PORQUE SE PUEDE MANEJAR LA MEMORIA DE MANERA FELXIBLE, SIN NECESIDAD DE RESERVAR ESPACIO CON ANTELACION
-
-P s apuntador del nodo D
-
-#### Listas simplemente ligadas
+Es un tipo de estructura lineal y dinámica de datos
+* Lineal, porque a cada elemento se le puede seguir solo otro elemento
+* Dinámica, porque se puede manejar la memoria de manera flexible, sin necesidad de preservar espacio con antelación
+# Listas simplemente ligadas
 Una lista simplemente ligada constituye una coleccion de elementos llamdos generalmente nodos
 Un tipo especial de lista simplemente ligada es la lista vacía
 
@@ -744,7 +677,7 @@ La referencia null se utiliza, normalmente, en dos situaciones:
 * *
 
 ¿Qué operaciones se trabaja con una lista simplemente ligada?
-* Recorrido 
+## Recorrido 
 ```Java
 1. Q <-- P
 2. Mientras (Q != null)
@@ -752,7 +685,7 @@ La referencia null se utiliza, normalmente, en dos situaciones:
 	2. Hacer Q <-- Q^.LIGA
 3. Fin Mientras
 ```
-* Inserción
+## Inserción
 ```Java
 InsertarInicio (P, D)
 Q tipo puntero
@@ -761,9 +694,8 @@ INFOR, LIGA
 2. Hacer Q^.INFOR <-- D, Q^.LIGA <--P
 	1. P <--Q
 ```
-* Borrado
-* Búsqueda
-
+## Borrado
+## Búsqueda
 ```Java
 Crear InicioLista
 	P, Q tipo puntero
@@ -800,8 +732,7 @@ Crear FinalLista
 	3. Fin mientras
 Fin FinalLista
 ```
-
-### Lista doblemente enlazadas
+# Lista doblemente enlazadas
 Conjunto de datos ordenados en el cual cada nodo apunta al nodo siguiente y el ultimo nodo a punta al primero
 
 ![[Lista Circular.png]]
@@ -813,8 +744,6 @@ Las operaciones que se pueden realizar con estas listas son las siguientes:
 * Buscar o localizar elementos
 * Eliminar elementos
 * Recorrer a través de la lista
-
-
 ```Java
 Inicio InsertarNodoCircular()
 	P, Q, T <-- tipo apuntador
@@ -890,8 +819,7 @@ Inicio RecorrerNodoCircular()
 	2. FinSi
 Fin RecorrerNodoCircular()
 ```
-
-## Árboles
+# Árboles
 ---
 Son las estructura de datos NO lineales y dinámicas de datos más importantes del área de la computación
 
@@ -915,8 +843,7 @@ Un árbol se puede definir como una estructura jerárquica aplicada sobre una co
 7. El grado es el número de descendiente directos de un nodo
 8. Joyanes empieza con nivel 0, Cairo con nivel 1
 9. La altura es el máximo número de niveles de un nodo
-
-#### Longitud de camino interno y externo 
+# Longitud de camino interno y externo 
 **Longitud de camino externo**
 ![[Longitud de Camino Interno.png]]
 i --> nivel del árbol
@@ -940,8 +867,7 @@ i --> nivel del arbol
 ```
 => MLCI = LCE / n
 ```
-
-#### **Árboles binarios**
+# **Árboles binarios**
 Cada nodo puede tener como máximo dos subárboles que se distinguen entre sí como el subárbol izquierdo y el subárbol derecho, según si ubicación con respecto al nodo raíz.
 
 **Árboles binarios distintos:** Son diferentes sus estructuras, nodos y arcos
@@ -956,8 +882,8 @@ Cada nodo puede tener como máximo dos subárboles que se distinguen entre sí c
 número de nodos =  2^h - 1
 ```
 
-### **Operaciones Básicas**
-##### **Creación de Árbol Binario**
+## **Operaciones Básicas**
+### **Creación de Árbol Binario**
 ```Java
 Inicio crear_nodos_AB(AP)
 	INFO de tipo caracter
@@ -986,9 +912,7 @@ Inicio crear_nodos_AB(AP)
 	2. FinSi
 Fin crear_nodos_AB()
 ```
-
-##### **Recorrido**
-***
+## **Recorrido**
 => *Recorrido en Pre-orden*
 - Visitar la raíz
 - Recorrer Subárbol IZQ
@@ -997,7 +921,6 @@ Fin crear_nodos_AB()
 Ejemplo:
 ![[Recorrido en pre-orden.png]]
 Pre-orden: ABDECFG
-
 ```Java
 Inicio preorden(AP)
 	INFO de tipo caracter
@@ -1051,11 +974,9 @@ Inicio postorden(AP)
 	4. Fin si
 Fin postorden(AP)
 ```
-
-## **Arboles binarios de búsqueda**
+# **Arboles binarios de búsqueda**
 Es un tipo especial de árbol, cuya característica principal es que la información que se almacena en los nodos cuida mantener cierto orden.
-
-#### **Operaciones básicas**
+## **Operaciones básicas**
 Es una estructura de datos sobre la cual se pueden realizar eficientemente las operaciones de búsqueda, inserción y eliminación. Por ejemplo, árbol binario de búsqueda se encuentra representado de la siguiente manera:
 ![[ABB.png]]
 En la parte derecha hay números mayores y en la izquierda mayores.
@@ -1066,8 +987,7 @@ En caso contrario, se pueden dar tres casos:
 * clave(x) = clave(raíz(t)) => el elemento ha sido encontrado
 * clave(x) < clave(raíz(t)) => se repite la búsqueda en el subárbol izquierdo
 * clave(x) > clave(raíz(t)) => se repite la búsqueda en el subárbol derecho
-
-##### **Búsqueda**
+### **Búsqueda**
 La operación de búsqueda en un árbol binario de búsqueda es mucho más eficiente que en un árbol binario general. Para buscar se sigue lo siguiente:
 1. Entrar por la raíz.
 2. Si el número a buscar es mayor a la raíz, se toma el lado derecho.
@@ -1092,8 +1012,7 @@ Inicio busquedaABB(I, P)
 	3. Fin Si
 Fin busquedaABB(I, P)
 ```
-
-##### **Inserción**
+### **Inserción**
 ```Java
 Inicio insertarABB(I, P)
 	INFO, IZQ, DER del nodo
@@ -1120,8 +1039,7 @@ Inicio insertarABB(I, P)
 	3. Fin Si
 Fin insertarABB(I, P)
 ```
-
-##### **Eliminación** 
+### **Eliminación** 
 ```Java
 Inicio eliminarABB(102, P)
 	INFO, IZQ, DER del nodo
@@ -1144,12 +1062,10 @@ Inicio eliminarABB(102, P)
 	   FinSi
 Fin eliminarABB(I, P)
 ```
-
-#### **Características**
+### **Características**
 * Los valores almacenados en el subárbol izquierda de T deben ser menores o iguales a la información guardada en el nodo T (raíz).
 * Si se hace un recorrido en in-orden la impresión de los datos se dará de manera ascendente.
----
-## **Árboles Balanceados (AVL Adelson Velskii y Landis)**
+# **Árboles Balanceados (AVL Adelson Velskii y Landis)**
 Con el objeto de mantener una eficiencia en la operación de búsqueda surgen los árboles balanceados.
 
 La característica principal es la de realizar reacomodos o balanceos luego de realizar operaciones básicas (búsqueda, inserción, eliminación) de elementos dentro de un árbol.
@@ -1223,8 +1139,8 @@ DeFinición LA
 Fin
 ```
 
-##### **Reestructuración del Árbol Balanceado**
-**Operaciones Auxiliares**
+# **Reestructuración del Árbol Balanceado**
+## **Operaciones Auxiliares**
 ```
 Rotar los Nodos
 								    -> DD
@@ -1235,8 +1151,7 @@ Rotación --|
 			-> Compuesta (3 nodos) ---|
 								       -> ID
 ```
-
-**Inserción**
+## **Inserción**
 ```Java
 Inicio InsertarAVL(P, DATO)
 	P, Q, P1 de tipo APUNTADOR
@@ -1270,8 +1185,7 @@ Inicio InsertarAVL(P, DATO)
 	3. FinSi
 Fin InsertarAVL()
 ```
-
-## Árboles B
+# Árboles B
 Son una generalización de los árboles AVL. Representan un método para almacenar y recuperar información en medios externos.
 
 **Un grupo de nodos va a recibir el nombre de páginas**, en donde se almacena la información de un grupo de nodos y se identifica por medio de una clave/llave
@@ -1294,9 +1208,8 @@ La página raíz puede contener como:
 Por temas de espaciado en cada nodo se almacena un dato.
 
 ![[Estructura Árbol B.png]]
-
-#### Operaciones básicas
-##### Búsqueda Árbol B
+## Operaciones básicas
+### Búsqueda Árbol B
 Es una generalización de los árboles binarios de búsqueda. Como principio se debe tener localizada la página en la que se va a buscar la clave
 ```Java
 x --> clave a buscar
@@ -1324,8 +1237,7 @@ Inicio Busqueda()
 	3. Escribir "Fracaso"
 Fin Busqueda()
 ```
-
-##### Inserción Árbol B
+### Inserción Árbol B
 ```Java
 Inicio Inserción()
 	1. Se debe localizar la página en donde se va a insertar el dato, tal que no altere las propiedades del árbol
@@ -1340,8 +1252,7 @@ Fin Inserción()
 Donde:
 	- m, número máximo de elementos de la página
 ```
-
-##### Eliminación Árbol B
+### Eliminación Árbol B
 Consiste en quitar una árbol sin violar las condiciones básicas 
 * m < d
 * m > 2d
@@ -1368,9 +1279,7 @@ Donde m, es el numero de claves en la pagina
 ![[Eliminación Árbol B.png]]
 
 ![[Eliminación Árbol B (2).png]]
-
-
-## Ordenación y búsqueda
+# Ordenación y búsqueda
 **Ordenar**, reagrupar o reorganizar datos en una secuencia especifica.
 **Buscar**, recuperar de información normalmente sobre elementos ordenados.
 
@@ -1382,6 +1291,3 @@ Ordenación interna
 Ordenación de Arreglos se denomina también ordenación interna ya que los elementos se encuentran en la memoria principal
 
 Arreglos unidimensionales
-
-
-

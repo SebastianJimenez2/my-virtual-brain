@@ -5,11 +5,11 @@ RDMS --> Relational Database Management System --> Software que nos permiten lev
 Como se habla de seguridad, también se deb hablar de cómo hacer SQL:  
 DDL -> Data definition language
 #### DDL
-|Commad|Description|
-|---|---|
-|[[Create]]|Crea una nueva tabla, una vista de tabla o algun otro objeto de base|
-|[[Alter]]|Modifica una objeto de base de datos existente, como una tabla|
-|[[Drop]]|Elimina la tabla entera, la vista de una tabla o un objeto en la base de datos|
+| Commad     | Description                                                                    |
+| ---------- | ------------------------------------------------------------------------------ |
+| [[Create]] | Crea una nueva tabla, una vista de tabla o algun otro objeto de base           |
+| [[Alter]]  | Modifica una objeto de base de datos existente, como una tabla                 |
+| [[Drop]]   | Elimina la tabla entera, la vista de una tabla o un objeto en la base de datos |
   
   
 DML --> Data Manipulation language

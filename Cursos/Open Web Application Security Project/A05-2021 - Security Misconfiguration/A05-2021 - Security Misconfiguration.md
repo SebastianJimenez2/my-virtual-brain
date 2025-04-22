@@ -1,5 +1,2 @@
+>[!Note]
 >[**A05:2021-Security Misconfiguration**](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/) moves up from #6 in the previous edition; 90% of applications were tested for some form of misconfiguration, with an average incidence rate of 4.5%, and over 208k occurrences of CWEs mapped to this risk category. With more shifts into highly configurable software, it's not surprising to see this category move up. The former category for **A4:2017-XML External Entities (XXE)** is now part of this risk category.
-
-[[Cursos/Open Web Application Security Project/A05-2021 - Security Misconfiguration/Notes/Notes|Notes]]
-[[Cursos/Open Web Application Security Project/A05-2021 - Security Misconfiguration/Doubts/Doubts|Doubts]]
-[[Cursos/Open Web Application Security Project/A05-2021 - Security Misconfiguration/Labs/Labs|Labs]]

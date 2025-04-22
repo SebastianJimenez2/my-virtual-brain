@@ -1,7 +1,2 @@
----
-
-> • [**A08:2021-Software and Data Integrity Failures**](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/) is a new category for 2021, focusing on making assumptions related to software updates, critical data, and CI/CD pipelines without verifying integrity. One of the highest weighted impacts from Common Vulnerability and Exposures/Common Vulnerability Scoring System (CVE/CVSS) data mapped to the 10 CWEs in this category. **A8:2017-Insecure Deserialization** is now a part of this larger category.
----
-[[Cursos/Open Web Application Security Project/A08-2021 - Software and Data Integrity Failures/Notes/Notes|Notes]]
-[[Cursos/Open Web Application Security Project/A08-2021 - Software and Data Integrity Failures/Doubts/Doubts|Doubts]]
-[[Cursos/Open Web Application Security Project/A08-2021 - Software and Data Integrity Failures/Labs/Labs|Labs]]
+>[!Note]
+>[**A08:2021-Software and Data Integrity Failures**](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/) is a new category for 2021, focusing on making assumptions related to software updates, critical data, and CI/CD pipelines without verifying integrity. One of the highest weighted impacts from Common Vulnerability and Exposures/Common Vulnerability Scoring System (CVE/CVSS) data mapped to the 10 CWEs in this category. **A8:2017-Insecure Deserialization** is now a part of this larger category.

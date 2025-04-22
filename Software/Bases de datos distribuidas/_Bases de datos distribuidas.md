@@ -42,8 +42,6 @@ Permiten crear la base de datos. Generan un conjunto de tablas que están almace
 
 ---
 Fundamentos de Bases de Datos de Korth <== Investiga
-
----
 # Definiciones
 
 - **Bases de Datos Distribuidas.**
@@ -66,7 +64,6 @@ Fundamentos de Bases de Datos de Korth <== Investiga
     - Independencia de red
     - Independencia de DBMS
 Calculo función costo de una BDD:
-
 # DISEÑO
 **Ascendente**. Existen BDD locales ya implementadas en vario nodos de la red y lo que se trata es integrar los datos que van a ser compartidos en un solo esquema global conceptual. Se aplica cuando existen varios nodos trabajando independientemente en la red (multibases). A partir del esquema global conceptual se pueden crear sistemas externos.
 - El esquema global conceptual es un subconjunto de los esquemas locales.

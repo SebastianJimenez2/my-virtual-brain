@@ -1,8 +1,7 @@
 #### [[Repaso]]
----
 #### [[Proyecto]]
 #### [[Retroalimentación]]
----
+
 Verificamos lo que elicitamos.
 
 Todo proyecto se enmarca en lo siguiente:
@@ -13,6 +12,7 @@ Todo proyecto se enmarca en lo siguiente:
 
 Minimizar el alcance minimiza el ==riesgo==. Si existe un proyecto grande, la mejor solución es dividirlo en iteraciones (features) es ir escalando poco a poco.
 ![Triangulo Triple Restricción](https://es.smartsheet.com/sites/default/files/IC-Triple-Constraint-Triangle-ES.png)
+> [!Important]
 > ==Ingeniería de software== es la aplicación de un acercamiento científico y empírico (observación) para buscar soluciones eficientes y económicas a problemas prácticos en software. 
 # Cynefin Framework
 ![Cynefin Framework](https://miro.medium.com/v2/resize:fit:1358/0*3cAM3lOXfLyJad7m)

@@ -12,7 +12,6 @@ Este problema se puede dar mediante:
 - Evento potencial malicioso o de otro tipo
 - Podría afectar significativamente a un activo  
     Va a afectar a la información o incluso a un módulo del SO.  
-    
 ### Vulnerabilidad
 - Es una debilidad que hace posible una amenaza
 - Ejemplo: un mal diseño, errores de configuración, malas prácticas de codificación, etc...
@@ -27,8 +26,6 @@ Cada programa y cada usuario de sistema debe operar utilizando el conjunto míni
   
 CRUD --> log  
 logging --> log  
-  
----
 ## Deber de View Basket
 Lo primero que hice para completar el challenge fue loggearme en una cuenta en Juice Shop que ya habíamos creado previamente
 ![[resources/Untitled 21.png|Untitled 21.png]]
