@@ -21,7 +21,7 @@ Cada módulo en el diseño debe ser dependiente y comprensible po sí mismo, sin
 El diseño debe ser fácil de dividir para poder asignar tareas en grupos y hacer del diseño algo más eficiente.
 ## Modificabilidad
 El sistema debe ser apto a cambios, debido a que un diseño nunca es estático, debe ser modificable al punto de que dichos cambios sean óptimos en costo, tiempo y eficacia. Un cambio solicitado debe causar el menor impacto posible dentro del sistema.
-![[resources/Untitled 5.png|Untitled 5.png]]
+![[Untitled 5.png|Untitled 5.png]]
 - **Diseño Arquitectónico**
     - Posee grandes componentes
     - El diseñador toma esto y plantea la arquitectura dependiendo del objetivo que se requiera.
@@ -50,15 +50,15 @@ Este principio se basa en que solo se muestre lo necesario, tener una división 
 La encapsulación es un principio de diseño que permite ocultar y proteger la información dentro de una clase, evitando que sea accesible desde fuera de ella. Se logra mediante el uso de modificadores de acceso en los atributos y métodos de la clase.
 # Relaciones
 **Asociación**. ‘B’ pertenece a ‘A’, siguiendo la imagen a continuación:
-![[resources/Untitled 1 2.png|Untitled 1 2.png]]
+![[Untitled 1 2.png|Untitled 1 2.png]]
 **Agregación**. Si muere A, B sigue viviendo.
-![[resources/Untitled 2 2.png|Untitled 2 2.png]]
+![[Untitled 2 2.png|Untitled 2 2.png]]
 **Composición**. Si muere A, muere B.
-![[resources/Untitled 3 2.png|Untitled 3 2.png]]
+![[Untitled 3 2.png|Untitled 3 2.png]]
 **Dependencia**. A depende de B. En el ejemplo, se podría decir que cajero depende de algo que cuenta en específico, ya sea un atributo o algo para que un método dentro de cajera pueda funcionar.
-![[resources/Untitled 4 2.png|Untitled 4 2.png]]
+![[Untitled 4 2.png|Untitled 4 2.png]]
 **Herencia**. Estructura de generalización. Se tiene una clase que generaliza a sus clases hijas, conocida como super clase, padre, base y a sus herencias como subclase, hijo, derivada.
-![[resources/Untitled 5 2.png|Untitled 5 2.png]]
+![[Untitled 5 2.png|Untitled 5 2.png]]
 - **Herencia Vertical:**
 ![[Untitled 6.png]]
 # Clase abstracta

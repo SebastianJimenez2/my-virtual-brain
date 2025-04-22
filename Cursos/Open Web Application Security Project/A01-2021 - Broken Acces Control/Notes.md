@@ -28,16 +28,16 @@ CRUD --> log
 logging --> log  
 ## Deber de View Basket
 Lo primero que hice para completar el challenge fue loggearme en una cuenta en Juice Shop que ya habíamos creado previamente
-![[resources/Untitled 21.png|Untitled 21.png]]
+![[Untitled 21.png|Untitled 21.png]]
 Una vez dentro, me fuí a mi “basket”
-![[resources/Untitled 1 8.png|Untitled 1 8.png]]
+![[Untitled 1 8.png|Untitled 1 8.png]]
 La misma que como se puede observar está vacía, posteriormente se procede a poner F12 (cuando estemos dentro del basket) para abrir lo de inspeccionar de la página que no me acuerdo cómo se llama xd
-![[resources/Untitled 2 8.png|Untitled 2 8.png]]
+![[Untitled 2 8.png|Untitled 2 8.png]]
 Aquí se sigue la siguiente ruta: Application - Storage - Session Storage - Link que aparece ahí. Una vez dentro, nos van a aparecer dos llaves, una correspondiente al “bid” y otra al “ítem total”.
 Según lo que entendí el valor que tiene la llave “bid” es la correspondiente a distintas canastas, y el “item total” es el precio de la canasta, entonces en este caso estos valores de las llaves se pueden cambiar a gusto del usuario, por lo que nuestro valor actual es 8:
-![[resources/Untitled 3 7.png|Untitled 3 7.png]]
+![[Untitled 3 7.png|Untitled 3 7.png]]
 Vemos como mi canasta está vacía, pero si cambio el valor de la llave “bid” por otro, ejemplo: 1, 2 o 3, y refrescamos la página, mi canasta aparecerá de la siguiente forma:
-![[resources/Untitled 4 6.png|Untitled 4 6.png]]
+![[Untitled 4 6.png|Untitled 4 6.png]]
 Como se ve, de como tenía al principio a lo que se está mostrando, me aparecieron tres productos que jamás agregué yo manualmente, por lo que asumo que si se cambia ese valor podemos ver canastas de otros usuarios registrados, pero tengo ciertas dudas que no me terminaron de cerrar:
 - ¿Por qué pude cambiar este valor?
 - ¿Es normal?

@@ -1,6 +1,6 @@
 ![[Untitled.jpeg]]
   
-![[resources/Untitled 20.png|Untitled 20.png]]
+![[Untitled 20.png|Untitled 20.png]]
   
 ![[Untitled 1.jpeg]]
   

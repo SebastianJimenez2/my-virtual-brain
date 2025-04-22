@@ -5,7 +5,7 @@ Con las cookies almacenadas, el browser envía la información para que así el 
 ## Funcionamiento de una Cookie
 - El servidor lo genera.
 - La cookie es almacenada por el navegador.
-![[resources/Untitled 16.png|Untitled 16.png]]
+![[Untitled 16.png|Untitled 16.png]]
 ## Recomendaciones
 - La información de la cookie no debe ser predecible, es decir, deben estar cifradas para que alguien no pueda doblegar la cookie.
 - No se debe enviar información vulnerable.
@@ -77,7 +77,7 @@ expresion ==> si existe más de una expresión se pone el 'return' caso contrari
 # Patrón MVC
 **Controlador**. Controla el flujo de trabajo. Recibe las peticiones de un usuario.
 **Modelo**. Representa a los datos.
-![[resources/Untitled 1 4.png|Untitled 1 4.png]]
+![[Untitled 1 4.png|Untitled 1 4.png]]
 ## Modelo MVC en arquitectura web
 Llega un petición a través de HTTP, lo recibe al controlador.
 ![[ArquitecturaWeb.svg]]
@@ -87,7 +87,7 @@ Llega un petición a través de HTTP, lo recibe al controlador.
 Una dependencia también se puede usar cuando la clase de la que depende la otra se usa la instancia dentro de un método.
 **HTTPServletRequest**. Representa a la petición que llega, es decir, el mensaje HTTP que llega con los parámetros, en el cuerpo por POST o en la URL si fue con get.
 **HTTPServletResponse**, Método HTTP de respuesta, posee el código de estado, las cabeceras, el cuerpo, es decir, el HTML en general.
-![[resources/Untitled 2 4.png|Untitled 2 4.png]]
+![[Untitled 2 4.png|Untitled 2 4.png]]
 A pesar de un archivo .jsp es una vista, como base es considerado como un servlet en ejecución.
 # Persistencia
 La manera en la que se guardan los datos, en este aspecto, nos vamos a enfocar en una **base de datos relacional.**
@@ -103,10 +103,10 @@ El modelo es el encargado de hablar con el repositorio de datos. Este es el resp
 ---
 # DAO
 Es un patrón de consumo de datos.
-![[resources/Untitled 3 3.png|Untitled 3 3.png]]
+![[Untitled 3 3.png|Untitled 3 3.png]]
 # ACTIVE RECORD
 En los métodos del modelo se mete la lógica del consumo de la BDD.
-![[resources/Untitled 4 3.png|Untitled 4 3.png]]
+![[Untitled 4 3.png|Untitled 4 3.png]]
 # JPA - Java Persistence API
 Es la implementación de Java para ORM. Es una especificación de Java, que es implementada para poder conectarse a la BDD.
 **ORM (Object Relational Mapping)** ⇒ El objeto se mapea a una tabla de la base de datos. La clase se mapea con una clase, y los objetos de esa clase se mapean con las filas de la tabla.
@@ -122,7 +122,7 @@ La arquitectura **REST** se basa en el protocolo HTTP, cada que se mande una sol
 ## Arquitectura REST
 Recursos remotos. Páginas web o datos que tiene un sistema.
 Es un estilo arquitectónica diseñado para y sobr eun sistema distribuido particular, la web.
-![[resources/Untitled 5 3.png|Untitled 5 3.png]]
+![[Untitled 5 3.png|Untitled 5 3.png]]
 ### Comunicación tradicional
 - HTLM y .jsp y código, viven en el servidor, por lo que, el sistema web que estamos haciendo es un ==monolito==
 - El cliente solo sirve como render
@@ -131,7 +131,7 @@ Es un estilo arquitectónica diseñado para y sobr eun sistema distribuido parti
 ### Servicio Web RESTful
 Un sistema web usa un recurso para consumir otro recurso de otra aplicación.
 - **Recurso.** Es una entidad, la cual se almacena principalmente en un servidor y el cliente solicita el recurso utilizando los servicios RESTful. Es habitualmente un objeto de negocio.
-![[resources/Untitled 6 2.png|Untitled 6 2.png]]
+![[Untitled 6 2.png|Untitled 6 2.png]]
 ### Implementación en Java
 **JAX-RS.** API de apoyo a la creación de Servicios Web estilo REST. Dispone de un servlet que funge como dispatcher.
 Se implementa usando ==JERSEY==
@@ -140,7 +140,7 @@ Se implementa usando ==JERSEY==
 **Cambios de representación**
 - **Marshalling**: de objeto Java JSON/XML
 - **Unmarshalling**: de objeto JSON/XML a objeto Java
-![[resources/Untitled 7 2.png|Untitled 7 2.png]]
+![[Untitled 7 2.png|Untitled 7 2.png]]
 # Manejadores de contenido
 CMS sistema manejador de contenido, permite a uno o varios usuarios crear, editar y publicar contenido web.
 **Hosting.** Es una empresa que tiene servidores físicos, entonces, nosotros como ingenieros en sistemas queremos tener una página web (sebas.com) y la misma se accesible en internet, por lo que, contratamos a la empresa en cuestión y ellos usan nuestros archivos para mostrar nuestra página.

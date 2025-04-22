@@ -3,7 +3,7 @@ Se define como el arte y la ciencia de **administrar el dinero.**
 ## Campos de decisión
 - Tipos de inversiones que se quieren hacer: mediano, largo o corto plazo.
 ## Proceso para la toma de decisiones
-![[resources/Untitled 14.png|Untitled 14.png]]
+![[Untitled 14.png|Untitled 14.png]]
 ## ¿Qué es un balance?
 **Activo**. Todos los bienes, derechos, tangible e intangibles que se tiene o sirven para trabajar.
 - **Activo corriente.** Ingresos a través del tiempo menor a un año. Ejemplo: una deuda que alguien tiene.
@@ -32,9 +32,9 @@ Los costos y gastos pueden ser:
 - El ==**interés**==. Es el precio que se paga por el uso del dinero dado o recibido en préstamo durante un período de tiempo. Generalmente se expresa en un porcentaje.
 - El ==**Impuesto**== es un tributo que se paga al Estado para soportar los gastos públicos. Estos pagos obligatorios son exigidos tantos a personas físicas, como a personas jurídicas.
 ## Estado de Resultado
-![[resources/Untitled 1 3.png|Untitled 1 3.png]]
+![[Untitled 1 3.png|Untitled 1 3.png]]
 ## Componentes de la utilidad neta
-![[resources/Untitled 2 3.png|Untitled 2 3.png]]
+![[Untitled 2 3.png|Untitled 2 3.png]]
 - **Utilidades por acción** = Utilidad neta / Valor total acciones
 - **Dividendos por acción** = Dividendos totales / Valor total acciones
 ## Utilidad, dividendo y acciones

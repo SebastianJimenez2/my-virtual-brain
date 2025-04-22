@@ -163,7 +163,7 @@ Story book
 	1. Se obtiene lo del usuario y se va refinando en cada iteración acorde a sus requisitos sobre el producto durante el proceso.
 ## Técnicas y metodologías
 
-![DCU.svg](DCU.svg)
+![DCU 1.svg](DCU%201.svg)
 
 1. Entender y especificar el contexto de uso
 	1. Observación

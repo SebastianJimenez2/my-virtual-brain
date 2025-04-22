@@ -18,4 +18,4 @@ Para hacer el análisis de un CU se usa un diagrama de **robustez**.
 El análisis es independiente de la plataforma.
 En el diseño se empieza a pensar en la tecnología.
 # UML - Unified Modeling Language
-![[resources/Untitled 22.png|Untitled 22.png]]
+![[Untitled 22.png|Untitled 22.png]]

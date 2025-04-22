@@ -20,8 +20,79 @@
               "icon": "lucide-file",
               "title": "_C++"
             }
+          },
+          {
+            "id": "f237f054606072ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conocimiento general/Doble diamante.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Doble diamante"
+            }
+          },
+          {
+            "id": "d9f6fe313c38f762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conocimiento general/Arquitectura C4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arquitectura C4"
+            }
+          },
+          {
+            "id": "654feaff6fd489a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conocimiento general/Arquitectura MVC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arquitectura MVC"
+            }
+          },
+          {
+            "id": "219983da792151b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conocimiento general/Git público-privado.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git público-privado"
+            }
+          },
+          {
+            "id": "4848f41010b156ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software/Web Apps Avanzadas/_Web Apps Avanzadas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Web Apps Avanzadas"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -180,24 +251,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f2a4dd52507d78d",
+  "active": "4848f41010b156ca",
   "lastOpenFiles": [
+    "_resources/BDD Route.png",
+    "_resources/Administración de Memoria.png",
+    "_resources/Acceso a los medios.png",
+    "Software/Profesionalismo/_Profesionalismo en informática.md",
+    "_resources/Teoría de la estupidez.png",
+    "_resources/DCU 1.svg",
+    "_resources/Representación Gráfica.png",
+    "Software/Diseño de software/_Diseño de software.md",
+    "_resources/Symmetric Encryption.png",
+    "_resources/Pasted image 20250218100541.png",
+    "Cursos/Ethical Hacking/_Ethical Hacking.md",
+    "_resources/Criptografía.png",
+    "Conocimiento general/4P's en Software.md",
+    "Conocimiento general/Git público-privado.md",
+    "Conocimiento general/Arquitectura MVC.md",
+    "Conocimiento general/Arquitectura C4.md",
+    "Conocimiento general/Doble diamante.md",
+    "Conocimiento general",
+    "Cursos/C++/_C++.md",
     "Software/Desarrollo de software seguro/_Introducción a desarrollo de software seguro.md",
     "Software/Computación Gráfica/Código.md",
     "Cursos/AWS/_AWS Certified Solutions Architect.md",
     "Software/Web Apps Avanzadas/_Web Apps Avanzadas.md",
-    "Cursos/C++/_C++.md",
-    "resources/Pasted image 20250422110004.png",
-    "resources/Untitled 18.png",
+    "_resources/Pasted image 20250422110004.png",
+    "_resources/Untitled 18.png",
     "Cursos/C++",
-    "resources/Untitled 10.png",
-    "resources/Untitled 5.png",
-    "resources/Untitled 3.png",
-    "resources/Untitled 2.png",
-    "resources/Untitled 1.png",
-    "resources/Untitled.jpeg",
-    "resources/Untitled.png",
-    "resources/PrincipiosTecnologicos-02.svg",
     "Software/V&V/_Verificación y Validación.md",
     "Software/U&A/_Usabilidad y Accesibilidad.md",
     "Software/Sistemas Operativos/_Principal SO.md",
@@ -206,19 +287,10 @@
     "Software/Ingeniería financiera/_Ingeniería financiera.md",
     "Software/HCI/_Interacción Humano Computador.md",
     "Software/Estructura de Datos y Algoritmos/_Principal Estructura.md",
-    "Software/Diseño de software/_Diseño de software.md",
     "Software/Construcción y evolución del software/_Construcción y evolución del software.md",
     "Software/Computación Gráfica/_Computación gráfica.md",
     "Software/Bases de datos distribuidas/_Bases de datos distribuidas.md",
     "Software/Automatización de procesos/AS IS.md",
-    "Software/Automatización de procesos/TO BE.md",
-    "Software/Automatización de procesos/TO DO.md",
-    "Software/Automatización de procesos/_Fundamentos de automatización de procesos.md",
-    "Software/Apps webs/_Apps Webs.md",
-    "Cursos/Open Web Application Security Project/_Open Web Application Security Project.md",
-    "Cursos/Open Web Application Security Project/A09-2021 - Security Logging and Monitoring Failures/A09-2021 - Security Logging and Monitoring Failures.md",
-    "Cursos/Open Web Application Security Project/A10-2021 - Server-Side Request Forgery (SSRF)/A10-2021 - Server-Side Request Forgery (SSRF).md",
-    "Cursos/Open Web Application Security Project/A08-2021 - Software and Data Integrity Failures/A08-2021 - Software and Data Integrity Failures.md",
     "Software/Construcción y evolución del software",
     "Cursos/Open Web Application Security Project/A03-2021 - Injection/Notes/DML",
     "Cursos/Open Web Application Security Project/A03-2021 - Injection/Notes/DDL",
@@ -227,7 +299,6 @@
     "Cursos/Open Web Application Security Project/A10-2021 - Server-Side Request Forgery (SSRF)/Doubts",
     "Cursos/Open Web Application Security Project/A10-2021 - Server-Side Request Forgery (SSRF)/Notes",
     "Cursos/Open Web Application Security Project/A09-2021 - Security Logging and Monitoring Failures/Labs",
-    "Cursos/Open Web Application Security Project/A09-2021 - Security Logging and Monitoring Failures/Doubts",
     "CODEIto/Pendientes.canvas",
     "Software/V&V/Cosas para investigar.canvas",
     "Software/V&V/Ingeniería de Software (mapa mental).canvas",

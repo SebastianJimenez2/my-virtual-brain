@@ -12,7 +12,7 @@ Busca que el código sea tanto elegante como eficiente (más óptimo y mejor uso
 - Los argumentos no deben ser mayores a seis, si lo es, se debe replantear la el método.
 - Es importante hacer el uso de excepciones o bloques try/catch.
 # Excepciones
-![[resources/Untitled 15.png|Untitled 15.png]]
+![[Untitled 15.png|Untitled 15.png]]
 - Excepciones Comprobadas.
     - Conexiones para una BDD
     - Abrir un archivo
