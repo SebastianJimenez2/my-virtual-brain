@@ -1,0 +1,1 @@
+Persona o grupo que provee recursos y apoyo para el proyecto y que es responsable de facilitar su éxito.

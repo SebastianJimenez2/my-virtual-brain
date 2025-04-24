@@ -45,4 +45,26 @@
 4. Dinamo
 5. Redis
 6. Neo4J
-
+# Clientes-servidores
+| Cliente     | Servidor    |
+| ----------- | ----------- |
+| Win11       | Win2025     |
+| Win10       | Win2022     |
+| Win8        | Win2019     |
+| Win7        | Win2016     |
+| WinXP       | Win2008     |
+| **Win2000** | **Win2003** |
+| Win98       | WinNT4.0    |
+| Win95       | WinNT3.5    |
+| Win3.1      |             |
+| MSDOS       |             |
+## Roles del servidor
+1. Web Server
+2. Storage
+3. Datawarehouse
+4. Database
+5. Active Directory
+6. FTP/SFTP
+7. DNS
+8. DHCP
+9. Correo (exchange)

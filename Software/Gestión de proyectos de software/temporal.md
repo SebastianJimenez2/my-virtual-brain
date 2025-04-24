@@ -1,0 +1,1 @@
+Tiene definida una fecha de inicio y una fecha fin
