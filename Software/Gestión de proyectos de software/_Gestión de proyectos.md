@@ -37,7 +37,7 @@ Los proyectos impulsan el cambio dando un <mark style="background: #D2B3FFA6;">v
 # Entregable
 Puede ser un producto, servicio, resultado único o una combinación de uno o más productos, servicios o resultados.
 # Dirección de proyectos
-Aplicación de conocimientos, [[Habilidades blandas]], herramientas y técnicas dentro de las actividades del proyecto para cumplir con los requisitos del mismo.
+Aplicación de conocimientos, [[Habilidades blandas|habilidades blandas]], herramientas y técnicas dentro de las actividades del proyecto para cumplir con los requisitos del mismo.
 El director va a:
 - Definir el proyecto y establecer la estructura de los equipos.
 - Definir claramente los objetivos y establecer una planificación del proyecto.
@@ -61,3 +61,36 @@ Colección de proyectos, programas, mini portafolios y operaciones que se gestio
 # Objetivos de Desarrollo Sostenible
 17 metas universales que cada país debe alcanzar o contribuir para tener un mundo justo y sostenible para generaciones futuras.
 ![[Pasted image 20250424103452.png]]
+# Ciclo de vida de un proyecto
+![[Pasted image 20250425092724.png]]
+## Fases del proyecto
+Conjunto de actividades del proyecto, relacionadas de manera lógica, que culmina con la finalización de uno o más entregables.
+* Nombre
+* Número
+* Duración
+* Requisitos de recursos
+* <mark style="background: #FFB8EBA6;">Criterios de entrada</mark>
+* <mark style="background: #FFB8EBA6;">Criterios de salida</mark>
+>[!Note]
+>Los dos últimos puntos pueden determinar si la fase terminó de manera exitosa.
+# Proceso
+Dentro de un proyecto hay algunos procesos que ejecutar. 
+>[!Note]
+>Conjunto de acciones o actividades que tienen relación y que permiten lograr: productos o servicios previamente especificados.
+
+Existen 5 grupos de procesos (que son los <mark style="background: #D2B3FFA6;">límites del proyecto</mark>):
+1. [[Procesos de inicio]]
+2. Planificación
+3. Ejecución
+4. Monitoreo y control
+5. Cierre
+Permiten controlar el avance del proyecto en cada una de las etapas.
+![[Pasted image 20250425093305.png]]
+# Áreas de conocimiento
+Describen los aspectos claves que deben tenerse en cuenta en un proyecto. Existen 10 áreas de conocimiento.
+![[Pasted image 20250425093503.png]]
+# Hito
+Es un entregable o algo funcional a entregar.
+Punto de control en una línea del tiempo, no necesariamente es para verificar un artefacto. El punto es entregar algo con lo que se pueda verificar el cumplimiento de ciertas acciones.
+>[!Important]
+>No necesariamente un hito es una elaboración de un artefacto, es un punto para verificar que se cumplieron tareas.
