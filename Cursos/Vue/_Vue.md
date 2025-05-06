@@ -39,16 +39,24 @@ Luego, en el archivo `.html` se debe:
 # Manipular datos
 ## Datos e interpolación
 Es el control de la app de Vue al código HTML, se logra usando doble corchetes `{{ ... }}` en HTML apuntando a la variable que se creó en la aplicación de Vue.
-## v-bind
+## v-bind `:`
 Se usa para asignar datos en nuestra aplicación de Vue a etiquetas HTML.
 ## v-html
 Sirve para pasar datos con etiquetas html de una aplicación Vue a un archivo `.html`.
-## v-on
+## v-on `@`
 Es para escuchar eventos, es decir, para definir qué pasa cuando se ejecuta una acción en específico.
 ## v-once
 Hace que un evento dinámico solo cambie una vez, luego se mantendrá en un estado de "bloqueo".
 ## v-model
 Es una forma de resumir la existencia de v-bind y v-on en un solo. A esto se le conoce como two-way binding, ya que se comunica en dos direcciones.
+## Conditional content
+### v-if (and v-show)
+Permite renderizar un contenido en específico si y solo si se cumple cierta condición. También se puede combinar con v-else o incluso con v-else-if
+### v-for
+Puede ser usado para renderizar multiples elementos dinámicamente, por lo que, se puede usar en conjunto con arreglos, objetos o rangos.
+También existen variaciones en dónde se pueden extraer valores, valores e **índices**, **llaves** e índices.
+>[!Note]
+>Vue re-usa los elementos del DOM para optimizar el rendimiento de las páginas, lo que puede llevar a bugs si existen elementos que contienen estados. Por lo que, se debe ayudar a Vue con una llave que contenga un valor único para que sepa identificar a los elementos que pertenecen a la lista de contenidos.
 # Methods
 Se usa para enlazar eventos o enlazar datos. Los métodos se ejecutarán cada vez que se vuelva a renderizar el componente del que Vue tiene control.
 Se usa para eventos o datos que necesitan ser re evaluados todo el tiempo.
