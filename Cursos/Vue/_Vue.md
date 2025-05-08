@@ -66,3 +66,63 @@ Funciona como methods, sin embargo, es recomendable usar computed properties par
 # Watchers
 Se usa para observar un dato y determinar una acción en base a el valor que tome el dato observado.
 Permite ejecutar cualquier código siempre y cuando cambie el dato que se está observando.
+# Vue por detrás
+## Reactividad
+Hay que tener una cosa en mente y es que JavaScript por defecto NO es reactivo, sino que eso es algo que Vue ofrece como tal.
+``` JavaScript
+let message = "Hello!";
+let longMessage = message + " World!";
+console.log(longMessage);   ==> Hello! World!
+
+console.log('-------');
+
+message = "Hello!!!!";
+console.log(longMessage);   ==> Hello! World!
+```
+En el ejemplo anterior, como JavaScript no es reactivo, no vuelve a ejecutar el código lo que hace que la variable inicial no cambie y se mantenga el anterior.
+En este aspecto, Vue tiene un mecanismo que si le permite estar al tanto cuando una variable cambia, para eso se usa algo denominado <mark style="background: #ADCCFFA6;">Proxy</mark> de JavaScript.
+En código JS vanilla lo que se hace por detrás es lo siguiente:
+```JavaScript
+const data = {
+  message: 'Hello!',
+  longMessage: 'Hello! World!'
+};
+
+const handler = {
+  set(target, key, value) {
+    if (key === 'message'){
+      target.longMessage = value + 'World!';
+    }
+    target.message = value;
+  }
+};
+  
+const proxy = new Proxy(data, handler);
+proxy.message = 'Hello!!!'
+console.log(proxy.longMessage);
+```
+Esto se puede resumir en lo siguiente:
+>[!Note]
+>Cada vez que se asigna un valor a una propiedad a través del proxy, el `set` puede hacer tareas adicionales, como actualizar otras propiedades dependientes (como `longMessage` en tu ejemplo).
+
+Entonces lo que hace Vue por detrás es asignar un proxy a cada una de las variables (`data() { ... })` dentro de la aplicación, entonces, en el momento en que una de estas variables cambia la parte de la aplicación en donde la misma fue usada.
+## Templates
+Es una parte de la página web de la cual Vue tiene control.
+>[!Note]
+>Dentro de Vue se puede tener más de una aplicación que puede ser manipulada por Vue, valga la redundancia.
+## Refs
+Con refs podemos apuntar al objeto del DOM para un elemento en específico HTML.
+```JavaScript
+En HTML:
+<input type="text" ref="userText" />
+
+En JavaScript
+console.log(this.message = this.$refs.userText); ==> <input type="text" />
+```
+## Vue instance lifecycle
+![[Drawing 2025-05-08 14.42.07.excalidraw]]
+# Componentes
+Los componentes en Vue se crean a través de la aplicación creada con el método `component()` que sigue la siguiente estructura:
+``` JavaScript
+app.component(id, config_object)
+```
