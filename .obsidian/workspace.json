@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "_Vue"
             }
+          },
+          {
+            "id": "c8074a9f5e388108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cursos/Vue/_Vue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Vue"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -56,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -196,10 +210,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4f516c1f0ce20bca",
+  "active": "c8074a9f5e388108",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-05-08 14.42.07.excalidraw.md",
+    "Cursos/Vue/Installed apps.md",
     "Cursos/Vue/_Vue.md",
+    "resources/Pasted image 20250509163037.png",
+    "resources/Pasted image 20250509160224.png",
+    "Excalidraw/Drawing 2025-05-08 14.42.07.excalidraw.md",
     "Cursos/JavaScript/JavaScript.md",
     "Software/Gestión de proyectos de software/_Gestión de proyectos.md",
     "Investigación/0. Apuntes/Framework.md",
@@ -223,7 +240,6 @@
     "Software/Gestión de proyectos de software/Stakeholder.md",
     "Software/Desarrollo de software seguro/Riesgo.md",
     "resources/Pasted image 20250424100249.png",
-    "resources/Pasted image 20250424100051.png",
     "resources",
     "Software/Gestión de proyectos de software/resultado único.md",
     "Software/Gestión de proyectos de software/temporal.md",
@@ -236,10 +252,7 @@
     "Conocimiento general/Arquitectura C4.md",
     "Conocimiento general/Arquitectura MVC.md",
     "Conocimiento general/Git público-privado.md",
-    "_resources/BDD Route.png",
     "Software/Profesionalismo/_Profesionalismo en informática.md",
-    "Software/Diseño de software/_Diseño de software.md",
-    "Cursos/Ethical Hacking/_Ethical Hacking.md",
     "Conocimiento general",
     "Cursos/C++",
     "Software/Construcción y evolución del software",

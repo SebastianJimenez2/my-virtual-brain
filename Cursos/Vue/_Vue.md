@@ -121,8 +121,39 @@ console.log(this.message = this.$refs.userText); ==> <input type="text" />
 ```
 ## Vue instance lifecycle
 ![[Drawing 2025-05-08 14.42.07.excalidraw]]
+# Estructura de un proyecto Vue
+## main.js
+Punto de entrada principal, es en dónde se crea la aplicación.
+## App.vue
+Es en donde se especifica un módulo de una app de Vue, contiene tres cosas principales:
+- `<template>`
+- `<script>`
+- `<style>`
 # Componentes
 Los componentes en Vue se crean a través de la aplicación creada con el método `component()` que sigue la siguiente estructura:
 ``` JavaScript
 app.component(id, config_object)
 ```
+# Component communication
+## Properties (props) (parent => child)
+Son los atributos que un componente puede aceptar.
+```
+props: [
+	'name',
+    'phoneNumber',
+    'emailAddress'
+]
+```
+Básicamente es una forma de comunicar las propiedades desde padre hacía el hijo. Al realizar este proceso de comunicación, las propiedades del padre no pueden ser modificadas en el hijo, es decir, no son ==mutables==.
+## Custom events (child => parent)
+`$emit(<name-custom-event>, data ...)` permite emitir un evento que se puede escuchar en el  componente del padre. El evento que se emite desde el hijo, el padre lo puede escuchar con `v-on o @<name-custom-event>="código JS"`. Estos eventos pueden tener datos que luego podrán ser usados en el método que haga su llamado.
+## Provide and inject pattern-
+### Problema 
+A veces hay datos que necesitan ser enviados a través de muchos componentes (pass-through) lo que genera mucha dependencia. Alto acoplamiento.
+![[Pasted image 20250509163037.png]]
+### Solución
+Con provide-inject lo que se hace es proporcionar datos desde un componente padre, para ser inyectado a un componente hijo.
+>[!Warning]
+>Para inyectar datos SI O SI deben venir de un componente padre, no se puede proveer de un hijo e inyectar al padre.
+
+![[Pasted image 20250509160224.png]]
