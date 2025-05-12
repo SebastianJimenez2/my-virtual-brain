@@ -129,11 +129,62 @@ Es en donde se especifica un módulo de una app de Vue, contiene tres cosas prin
 - `<template>`
 - `<script>`
 - `<style>`
+>[!Note]
+>Los estilos que se pongan en un componente afectan a toda la app, para que un estilo afecte a un solo componente se debe usar `<style scoped>`
 # Componentes
 Los componentes en Vue se crean a través de la aplicación creada con el método `component()` que sigue la siguiente estructura:
 ``` JavaScript
 app.component(id, config_object)
 ```
+Se tiene la opción de importar los componentes locales y globales, se sugiero hacerlo global cuando más de un template usa el componente, sino, se puede hacer la importación local.
+## Componentes con slot
+Al crear un componente usando slot, por ejemplo:
+```JavaScript
+<template>
+  <div>
+    <header v-if="$slots.header">  // esta condicional verifica si vamos a recibir contenido para renderizarlo, caso contrario no lo renderiza.
+      <slot name="header">
+        <!-- <h2>Default Header</h2> -->
+      </slot>
+    </header>
+    <slot> </slot>
+  </div>
+</template>
+```
+Entonces, si usamos este componente en otro componente:
+``` JavaScript
+<template>
+  <section>
+    <base-card>
+      <template v-slot:(or #)header>
+        <h3>{{ fullName }}</h3>
+        <base-badge :type="role" :caption="role.toUpperCase()"></base-badge>
+      </template>
+      <template v-slot:default>
+        <p>{{ infoText }}</p>
+      </template>
+    </base-card>
+  </section>
+
+</template>
+```
+Se ha de notar los siguiente:
+- `v-slot:default` apunta al slot que no está siendo asignado ningún nombre, y los elementos del componente se pondrán ahí.
+- Si no se tiene `v-slot:name`, entonces, tomará el valor de default siempre y cuando este exista en el slot
+## Componentes dinámicos
+Vue nos ofrece una etiqueta para hacer la vida más sencilla de los devs `<component/>`, funcionado de la siguiente forma:
+```JavaScript
+<div>
+    <the-header></the-header>
+    <button @click="setSelectedComponent('active-goals')">Active Goals</button>
+    <button @click="setSelectedComponent('manage-goals')">Manage Goals</button>
+    <!-- active-goals v-if="selectedComponent == 'active-goals'"></active-goals -->
+    <!-- manage-goals v-if="selectedComponent == 'manage-goals'"></manage-goals> -->
+    <component :is="selectedComponent">
+    </component>
+  </div>
+```
+Nótese cómo `<componente/>` simplificó dos condicionales en una solo línea,
 # Component communication
 ## Properties (props) (parent => child)
 Son los atributos que un componente puede aceptar.
