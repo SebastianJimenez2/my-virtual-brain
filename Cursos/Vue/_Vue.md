@@ -208,3 +208,54 @@ Con provide-inject lo que se hace es proporcionar datos desde un componente padr
 >Para inyectar datos SI O SI deben venir de un componente padre, no se puede proveer de un hijo e inyectar al padre.
 
 ![[Pasted image 20250509160224.png]]
+# Forms
+Para extraer datos de un input de tipo texto asociado a un forms se puede usar `v-model` asociado a un dato creado previamente dentro del mismo componente, que es la variable en donde se guardará la información ingresada por el usuario. 
+>[!Note]
+>La diferencia de v-model y refs es que v-model devuelve el tipo que tenga en input al valor, en cambio, refs todo lo devuelve como texto.
+>
+
+En caso de que se tenga check-boxes o radio-buttons selectors, es importante asignar un `value=""` para que v-model sepa diferenciar entre los diferentes tipos de opciones.
+# Backend
+Para enviar información desde el front hacia el back (una base de datos, por ejemplo) se usa el ya conocido `fetch()` de la siguiente forma:
+``` JavaScript
+fetch(
+        'https://vue-http-demo-68a66-default-rtdb.firebaseio.com/surveys.json',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: this.enteredName,
+            rating: this.chosenRating,
+          }),
+        }
+      );
+```
+>[!Note]
+>En `methods` se puede usar cualquiera de los ya conocidos: PUT, PATCH, DELETE, POST, GET, sin embargo, la estructura del `fetch` cambia para cada una de estas.
+## Método GET
+Para recibir datos del back al front, se usa el método GET, el cual en la función `fetch()` está por defecto, por lo que no es necesario especificar. Entonces, para obtener los datos, se usa la función `fetch().then()` para obtener la respuesta y luego otro `.then()` para procesar la respuesta:
+``` JavaScript
+fetch(
+        'https://vue-http-demo-68a66-default-rtdb.firebaseio.com/surveys.json'
+      )
+        .then((response) => {
+          if (response.ok) {
+            return response.json(); // obtiene la información si es recibida en JSON
+          }
+        })
+        .then((data) => {
+          const results = [];
+          for (const id in data) {
+            results.push({
+              id: id,
+              name: data[id].name,
+              rating: data[id].rating,
+            });
+          }
+          this.results = results;
+        });
+```
+>[!Note]
+>La función `then()` siempre requiere como parámetro a una función flecha en dónde se procesa toda la info necesaria obtenida.
