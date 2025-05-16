@@ -4,7 +4,12 @@
   "foldIndent": true,
   "trashOption": "local",
   "newFileLocation": "current",
+<<<<<<< HEAD
+  "attachmentFolderPath": "_resources",
+  "promptDelete": false
+=======
   "attachmentFolderPath": "resources",
   "promptDelete": false,
   "spellcheck": true
+>>>>>>> origin/main
 }

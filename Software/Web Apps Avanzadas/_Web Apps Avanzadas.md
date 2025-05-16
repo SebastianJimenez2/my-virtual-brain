@@ -68,3 +68,21 @@
 7. DNS
 8. DHCP
 9. Correo (exchange)
+# Connection string
+[All database connection strings](https://www.connectionstrings.com)
+>[!Important]
+>Se debe conocer el puerto (1433) de SQL server y cómo generar una trusted conexión
+
+Se puede conectar a SQL server de diferentes formas:
+
+| Forma de conexión    | Protocolo                   |
+| -------------------- | --------------------------- |
+| .                    | Shared Memory (por defecto) |
+| localhost            | Shared Memory (luego TCP)   |
+| localhost,1433       | TCP/IP explícito            |
+| localhost\SQLEXPRESS | Shared Memory o TCP/IP      |
+| 127.0.0.1            | TCP/IP                      |
+| 127.0.0.1,1433       | TCP/IP explícito            |
+| NOMBREPC (hostname)  | TCP/IP o Named Pipes        |
+# POC (Proof of concept)
+
