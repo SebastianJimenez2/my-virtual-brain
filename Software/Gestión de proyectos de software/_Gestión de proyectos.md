@@ -94,3 +94,106 @@ Es un entregable o algo funcional a entregar.
 Punto de control en una línea del tiempo, no necesariamente es para verificar un artefacto. El punto es entregar algo con lo que se pueda verificar el cumplimiento de ciertas acciones.
 >[!Important]
 >No necesariamente un hito es una elaboración de un artefacto, es un punto para verificar que se cumplieron tareas.
+# Alcance
+## Alcance del producto
+Características y funciones de un producto, servicio o resultado.
+## Alcance del proyecto
+Permite visibilizar todo el trabajo que debemos realizar para obtener un resultado único con funciones o características fijas.
+
+# Planificar la gestión del alcance
+Proceso de crear un plan para la gestión del alcance que documenté cómo serán definidos, validados y controlados el alcance del proyecto y del producto.
+Este proceso proporciona la guía y dirección sobre cómo se gestionará el alcance a lo largo del proyecto.
+Ayuda a que en el proyecto no ocurra desfase del alcance (cambios no controlados).
+## Entradas
+- Acta de constitución del proyecto
+- Plan para la dirección del proyecto
+- Factores ambientales de la empresa
+- Activos de los procesos de la organización
+## Herramientas y técnicas
+- Juicio de expertos
+- Reuniones
+- Análisis de datos
+## Salidas
+### Plan de gestión del alcance
+Suele contener los procesos requeridos pars preparar un enunciado detallado del alcance, crear la estructura de desglose del trabajo (EDT), cómo será mantenida y aprobada, cómo será obtenida la aceptación formal, cómo serán procesadas las solicitudes de cambio al alcance.
+### Plan de gestión de requisitos
+Suele contener: priorización de requisitos, estructura de trazabilidad para conocer cuales atributos de los requisitos serán capturados en la matriz de trazabilidad.
+>[!Important]
+>NO son las requisitos como tal, sino son las directrices que me permiten saber cómo se va a documentar y manejar los requisitos del proyecto.
+# Recopilar requisitos
+Proceso de determinar, documentar y gestionar las necesidades de los interesados para cumplir con los objetivos del proyecto.
+## Entradas
+- Acta de constitución del proyecto
+- Plan para la dirección del proyecto
+- Factores ambientales de la empresa
+- Activos de los procesos de la organización
+- Documentos de negocio => Solución a un software para algo ya establecido, el patrocinador lo debe proveer.
+- Acuerdos => Establecer que se requiere cierto tipo de información, datos, accesos o nivel de participación de los interesados.
+## Herramientas y técnicas
+- Juicio de expertos
+- Recopilación de datos
+- Análisis de datos
+- Toma de decisiones
+- Representación de datos
+- Habilidades interpersonales y de equipo
+- Prototipos
+>[!Note]
+>El PMBOK sugiere estas herramientas para cualquier tipo de gestión de proyectos, no necesariamente de software. En este aspecto, herramientas y técnicas de elicitación de requisitos conocidos también aplican.
+## Salida
+### Documentación de requisitos
+Lista de requisitos que cumpla dos características:
+- Mediables 
+- Tangibles
+>[!Note]
+>En el caso de software no todos los requisitos son medibles.
+
+El PMBOK sugiere los siguientes tipos de requisitos:
+- Requisitos del negocio => Necesidades de la organización en un alto nivel: problemas, oportunidades.
+- Requisitos de los interesados
+- Requisitos de las soluciones: funcionales y no funcionales
+- Requisitos de transición y preparación => describir necesidades, capacidades que se necesitan para poder pasar de un estado actual a un estado futuro. Debe considerarse todas las actividades a considerar para realizar un despliegue.
+- Requisitos del proyecto
+- Requisitos de calidad
+## Matriz de trazabilidad de requisitos
+- Vinculación con objetivos del negocio
+- Seguimiento a lo largo del CV del proyecto
+- Entrega de requisitos aprobados
+- Gestión de cambios en el alcance del producto
+- Mejora la comunicación entre las partes interesadas
+- Identificación de requisitos no cumplidos o cambiados
+- Facilita la revisión y auditoría de los requisitos.
+# Definir el alcance
+Proceso que consiste en desarrollar una descripción detallada del proyecto y del producto, así como también límites del producto y los criterios de aceptación.
+## Entradas
+- Acta de Constitución del Proyecto 
+- Plan para la dirección del proyecto
+- Documentos de proyecto
+- Factores ambientales de la empresa 
+- Activos de los procesos de la organización
+## Herramientas y técnicas
+- Juicio de Expertos
+- Análisis de datos
+- Toma de decisiones
+- Habilidades interpersonales y de equipo
+- Análisis del producto
+## Salidas
+Documento que contiene: 
+- Descripción del alcance del producto 
+- Entregables
+- Criterios de aceptación
+- Exclusiones del proyecto
+# Estructura de desglose del trabajo (EDT) / Work Breakdown Structure (WBS)
+Crear la EDT/WBS es el proceso de subdividir los entregables del proecto y el trabajo del proyecto en componentes.
+## Entradas
+- Plan para la dirección del proyecto
+- Documentos del proyecto
+- Factores ambientales de la empresa
+- Activos
+## Herramientas y técnicas
+Juicio de expertos
+[[Descomposición]]
+## Ejemplo de EDT
+>[!Important]
+>Los paquetes de trabajo NO son actividades, después se desglosan en actividades
+
+![[Pasted image 20250429080914.png]]

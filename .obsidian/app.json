@@ -4,6 +4,6 @@
   "foldIndent": true,
   "trashOption": "local",
   "newFileLocation": "current",
-  "attachmentFolderPath": "resources",
+  "attachmentFolderPath": "_resources",
   "promptDelete": false
 }
