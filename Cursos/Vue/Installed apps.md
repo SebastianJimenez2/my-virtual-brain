@@ -7,3 +7,5 @@ Crear proyecto de Vue
 - cd <name>
 - npm install
 - npm run serve
+
+1 a la 15 y 19 

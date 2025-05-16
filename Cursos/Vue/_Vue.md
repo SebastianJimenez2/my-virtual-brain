@@ -259,3 +259,154 @@ fetch(
 ```
 >[!Note]
 >La función `then()` siempre requiere como parámetro a una función flecha en dónde se procesa toda la info necesaria obtenida.
+# Routing
+El routing sirve para especificar una URL a una acción específica o vista específica dentro de la aplicación web, para esto Vue ofrece `vue-router` el cuál se instala con el comando `npm install --save vue-router` y se usa de la siguiente forma:
+``` JavaScript
+import { createRouter, createWebHistory } from 'vue-router';
+
+const router = createRouter({
+    history: createWebHistory(), //sirve para que se guarden las rutas en el navegador
+    routes: [
+      { path: '/', redirect: '/teams' }
+    ] // se especifica el array de las rutas
+});
+```
+>[!Note]
+>En la definición de la ruta, se puede agregar una llave denominada "name" para asociar la ruta con un nombre o id específico, adicional a esto, si dentro de esa ruta se quiere renderizar más de un componente con `<router-view>`, se puede usar la llave `components` y como slots, dar un nombre al `router-view` y especificar el componente que se quiere renderizar en ese nombre asociado.
+
+Una vez definido, para usarlo, se tiene la etiqueta `<router-link to="/ruta-especificada"></router-link>` de la siguiente forma:
+``` JavaScript
+<template>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/teams">Teams</router-link>
+        </li>
+        <li>
+          <router-link to="/users">Users</router-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</template>
+```
+>[!Note]
+>En realidad, la etiqueta usada `<router-link>` para el enrutamiento es un anchor `<a>` por detrás, así que funciona como tal.
+
+También al instalar el paquete, disponemos de `$router` accesible en cualquier componente, que junto con métodos puede ayudar a programar un botón para que funcione como un navegador entre rutas:
+``` JavaScript
+<template>
+  <button @click="confirm()">Confirm</button>
+</template>
+
+<script>
+export default {
+  methods: {
+    confirm() {
+      this.$router.push('/teams'); //también existe .forward() o .back() que simulan los botones de navegación del navegador y muchos métodos más disponibles en la documentación
+    },
+  },
+};
+</script>
+```
+Cuando estás en una página por ejemplos `your.domain/teams/t2` y quieres navegar dentro de esa página a `your.domain/teams/t1`, es decir, cambiando el valor del parámetro de la URL, se debe tener en cuenta que `router` no destruye y vuelve a construir los componentes que han sido cargados cuando navegas por ellos, sino que los atrapa, por lo que pese a que la URL cambia, el contenido no cambiará, para esto se hace lo siguiente:
+```JavaScript
+// Se crea un método del encargado de lidear con las rutes, es decir, route.
+   methods: {
+    loadTeamMembers(route) {
+      const teamId = route.params.teamId;
+      const selectedTeam = this.teams.find((team) => team.id === teamId);
+      const members = selectedTeam.members;
+      const selectedMembers = [];
+      for (const member of members) {
+        const selectedUser = this.users.find((user) => user.id === member);
+        selectedMembers.push(selectedUser);
+      }
+      this.members = selectedMembers;
+      this.teamName = selectedTeam.name;
+    },
+  },
+
+// Llamamos el método cada que el componente se crea
+  created() {
+    this.loadTeamMembers(this.$route);
+  },
+
+// Llamamos el método cada que la ruta cambia, aquí solventamos el problema, cada que cambie la ruta, se volverá a crear al componente
+  watch: {
+    $route(newRoute) {
+      this.loadTeamMembers(newRoute)
+    },
+  },
+```
+>[!Note]
+>Una alternativa adicional a la solución anterior es recibir como parámetro un prop en lugar del route para hacerlo más reusable, ya que se podrá acceder a esa URL siempre y cuando el otro componente tenga como prop al parámetro enviado, para eso hay que tener en consideración que se debe especificar en el path que se aceptan props:
+>`{ path: '/teams/:teamId', component: TeamMembers, props: true }`
+
+# Transition tag
+Un problema que se tiene con CSS es que luego de realizar una animación, la misma se destruye por lo que no es posible regresar a su estado natural con animación sino que se hace de forma abrupta, para esto Vue ofrece `<Transition>`, que funciona de la siguiente forma:
+![[Pasted image 20250515174248.png]]
+En donde:
+- **v-enter-from:** Estado inicial para entrar. Añadido antes de insertar el elemento, eliminado un fotograma después de insertar el elemento.
+- **v-enter-active:** Estado activo para entrar. Se aplica durante toda la fase de entrada. Se añade antes de insertar el elemento y se elimina al finalizar la transición/animación. Esta clase permite definir la duración, el retardo y la curva de relajación de la transición de entrada.
+- **v-enter-to:** Estado final para entrar. Se añade un fotograma después de insertar el elemento (al mismo tiempo que se elimina v-enter-from) y se elimina cuando finaliza la transición/animación.
+- **v-leave-from:** Estado inicial de leave. Se añade inmediatamente cuando se activa una transición de salida, se elimina después de un fotograma.
+- **v-leave-active:** Estado activo de la salida. Se aplica durante toda la fase de abandono. Se añade inmediatamente cuando se activa una transición de salida y se elimina cuando finaliza la transición/animación. Esta clase puede utilizarse para definir la duración, el retardo y la curva de relajación de la transición de salida.
+- **v-leave-to:** Estado final de la salida. Se añade un fotograma después de que se active una transición de salida (al mismo tiempo que se elimina v-leave-from) y se elimina cuando finaliza la transición/animación.
+>[!Note]
+>Se puede asignar un nombre al tag de transition y se reemplaza la `v` por el nombre puesto al tag. Además, hay que tener en cuenta que el mismo solo puede envolver a un elemento a ser animado, a excepción de si se usa `v-if / v-else`
+## JavaScript hooks
+```JavaScript
+<Transition
+  @before-enter="onBeforeEnter"
+  @enter="onEnter"
+  @after-enter="onAfterEnter"
+  @enter-cancelled="onEnterCancelled"
+  @before-leave="onBeforeLeave"
+  @leave="onLeave"
+  @after-leave="onAfterLeave"
+  @leave-cancelled="onLeaveCancelled"
+>
+  <!-- ... -->
+</Transition>
+
+
+// called before the element is inserted into the DOM.
+// use this to set the "enter-from" state of the element
+function onBeforeEnter(el) {}
+
+// called one frame after the element is inserted.
+// use this to start the entering animation.
+function onEnter(el, done) {
+  // call the done callback to indicate transition end
+  // optional if used in combination with CSS
+  done()
+}
+
+// called when the enter transition has finished.
+function onAfterEnter(el) {}
+
+// called when the enter transition is cancelled before completion.
+function onEnterCancelled(el) {}
+
+// called before the leave hook.
+// Most of the time, you should just use the leave hook
+function onBeforeLeave(el) {}
+
+// called when the leave transition starts.
+// use this to start the leaving animation.
+function onLeave(el, done) {
+  // call the done callback to indicate transition end
+  // optional if used in combination with CSS
+  done()
+}
+
+// called when the leave transition has finished and the
+// element has been removed from the DOM.
+function onAfterLeave(el) {}
+
+// only available with v-show transitions
+function onLeaveCancelled(el) {}
+```
+

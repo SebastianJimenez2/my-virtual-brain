@@ -11,14 +11,14 @@
             "id": "7d82c2f17ae425f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Software/V&V/_Verificación y Validación.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "_Verificación y Validación"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -183,13 +183,14 @@
   },
   "active": "7d82c2f17ae425f2",
   "lastOpenFiles": [
+    "resources/Pasted image 20250515174248.png",
+    "Cursos/Vue/_Vue.md",
+    "Cursos/Vue/Installed apps.md",
     "Software/V&V/_Verificación y Validación.md",
     "resources/Pasted image 20250424100249.png",
     "resources/Pasted image 20250509163037.png",
     "resources/Pasted image 20250425094700.png",
     "resources/Pasted image 20250425092724.png",
-    "Cursos/Vue/_Vue.md",
-    "Cursos/Vue/Installed apps.md",
     "resources/Pasted image 20250509160224.png",
     "Excalidraw/Drawing 2025-05-08 14.42.07.excalidraw.md",
     "Cursos/JavaScript/JavaScript.md",
@@ -208,7 +209,6 @@
     "Cursos/Laravel + Vue/_Laravel + Vue.md",
     "Cursos/Laravel + Vue",
     "resources/Pasted image 20250424103452.png",
-    "resources/Pasted image 20250424102753.png",
     "Software/Gestión de proyectos de software/Sponsor.md",
     "Software/Gestión de proyectos de software/Stakeholder.md",
     "Software/Desarrollo de software seguro/Riesgo.md",
@@ -224,7 +224,6 @@
     "Conocimiento general/Arquitectura C4.md",
     "Conocimiento general/Arquitectura MVC.md",
     "Conocimiento general/Git público-privado.md",
-    "Software/Profesionalismo/_Profesionalismo en informática.md",
     "Conocimiento general",
     "Cursos/C++",
     "Software/Construcción y evolución del software",
