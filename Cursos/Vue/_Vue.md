@@ -409,4 +409,5 @@ function onAfterLeave(el) {}
 // only available with v-show transitions
 function onLeaveCancelled(el) {}
 ```
-
+# Vuex replacing provide-inject pattern
+![[Drawing 2025-05-16 16.29.56.excalidraw]]

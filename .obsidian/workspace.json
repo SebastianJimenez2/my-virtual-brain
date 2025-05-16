@@ -11,14 +11,14 @@
             "id": "7d82c2f17ae425f2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Cursos/Vue/_Vue.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "_Vue"
             }
           }
         ]
@@ -183,6 +183,15 @@
   },
   "active": "7d82c2f17ae425f2",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-05-16 16.29.56.excalidraw.md",
+    "Cursos/Vue/_Vue.md",
+    "Software/Gestión de proyectos de software/_Gestión de proyectos.md",
+    "Software/Sistemas embebidos/_Sistemas embebidos.md",
+    "Excalidraw/Drawing 2025-05-08 14.42.07.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-01 07.34.29.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-01 07.22.43.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-25 07.40.30.excalidraw.md",
+    "Cursos/Vue/Installed apps.md",
     "_resources/Pasted image 20250515174248.png",
     "conflict-files-obsidian-git.md",
     "_resources/Pasted image 20250509163037.png",
@@ -195,20 +204,12 @@
     "_resources/Pasted image 20250425093305.png",
     "_resources/Pasted image 20250425092724.png",
     "Software/Gestión de proyectos de software/Descomposición.md",
-    "Excalidraw/Drawing 2025-05-01 07.34.29.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-01 07.22.43.excalidraw.md",
-    "Cursos/Vue/_Vue.md",
-    "Cursos/Vue/Installed apps.md",
     "Software/V&V/_Verificación y Validación.md",
-    "Excalidraw/Drawing 2025-05-08 14.42.07.excalidraw.md",
     "Cursos/JavaScript/JavaScript.md",
-    "Software/Gestión de proyectos de software/_Gestión de proyectos.md",
     "Investigación/0. Apuntes/Framework.md",
-    "Software/Sistemas embebidos/_Sistemas embebidos.md",
     "Cursos/Vue",
     "Software/Gestión de proyectos de software/Procesos de inicio.md",
     "Excalidraw/Drawing 2025-04-25 07.40.51.excalidraw.md",
-    "Excalidraw/Drawing 2025-04-25 07.40.30.excalidraw.md",
     "Excalidraw",
     "Cursos/Laravel/LARAVEL.md",
     "Cursos/Laravel + Vue/_Laravel + Vue.md",
