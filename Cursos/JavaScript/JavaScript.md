@@ -1,3 +1,5 @@
+>[!Note]
+>Lenguaje de programación que está soportado por todos los navegadores. Permite manipular lo que está ejecutándose actualmente en la página y proporciona una mejor experiencia de usuario.
 # Valores, tipos y operadores
 ### Tipos
 - Numéricos
