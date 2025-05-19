@@ -411,3 +411,94 @@ function onLeaveCancelled(el) {}
 ```
 # Vuex replacing provide-inject pattern
 ![[Drawing 2025-05-16 16.29.56.excalidraw]]
+Para empezar a usar Vuex se debe usar lo siguiente dentro de `main.js`
+```JavaScript
+import { createStore } from 'vuex'
+
+const store = createStore ({
+	state() {
+		return {
+			// definir variables que todos los componentes pueden usar con this.$store.state.<variable>
+		}
+	},
+	mutations() {
+		// definir métodos que se van a usar en todos los compoenente con this.$store.commit(<método>)
+		método(state) {
+			state.variable //state te permite acceder a las variables definidas dentro de los métodos
+		}
+		método(state, payload){
+			// payload es una variable de cualquier tipo que se va a recibir al llamar al método (puede tomar cualquier nombre, no necesariamente payload)
+			// para usar este método se usa this.$store.commit(<método>, variable)
+		}
+	},
+	actions () {
+		// dado a que las mutaciones no deben tener código asíncrono, para usar métodos asincrónicos se usa actions
+		método(context, payload) {
+			// lógica ... {
+				context.commit('mutación');
+				context.dispatch('dispatchMethod');
+				context.getters('getterMethod');
+			// }
+		}		
+		// para usar estos métodos se usa this.$store.dispatch('método')
+	},
+	getters() {
+		// se usa para obtener variables fijas que cambian acorde a un proceso
+		método(state) {
+			return state.variable * 2;
+			// para usarlo se usa this.$store.getters.<metodoGetter>
+		}
+		método(_, getters) {
+			// se usa _ cuando se quiere acceder a una segunda variable sin definir o usar la primera
+			// este método sirve para acceder a otros getters definidos y en base a estos definir lógica y evitar el copy&paste smell
+		}
+	}
+})
+```
+## Helpers
+Sirven para reducir código y ser más claros al momento de llamar `actions` o `getters` dentro de componentes
+```JavaScript
+import { mapGetters } from 'vuex'
+import { mapActions } from 'vuex'
+
+computed () {
+	...mapGetters(['getterMethod']) // dentro de computed propierties del componente
+}
+
+methods() { 
+	...mapActions(['actionMethod1', 'actionMethos2', ...]) // dentro de methods propierties del componente
+	// otra forma de usarlo
+	...mapActions({
+		nombre1: 'actionMethod1',
+		nombre2: 'actionMethod2',
+	})
+}
+```
+## Organizing storage with modules
+Se puede mejorar el storage dando responsabilidades únicas a objetos JavaScript que contengan la lógica de cada storage dividida.
+```JavaScript
+const nameModule = {
+	state() {
+		return {
+			<variables-del-módulo>
+		}
+	},
+	mutations: {
+		mutaciones-del-módulo()
+	},
+	actions: {
+		acciones-del-módulo()
+	},
+	getters: {
+		getters-del-módulo()
+	}
+}
+
+...........
+
+const store = createStore ({
+	modules: {
+		nombreDelModuloCreado: nameModule
+	}
+```
+
