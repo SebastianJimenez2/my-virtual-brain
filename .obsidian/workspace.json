@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "_Vue"
             }
-          },
-          {
-            "id": "5d7b279d434f08d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursos/Vue/Installed apps.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Installed apps"
-            }
           }
         ]
       }
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.49999618530273,
-    "collapsed": true
+    "width": 262.49999618530273
   },
   "right": {
     "id": "987104902b4eb461",
@@ -198,8 +183,21 @@
   },
   "active": "7d82c2f17ae425f2",
   "lastOpenFiles": [
-    "Cursos/Vue/Installed apps.md",
+    "Excalidraw/Drawing 2025-05-19 15.29.59.excalidraw.md",
     "Cursos/Vue/_Vue.md",
+    "Excalidraw/Drawing 2025-05-19 11.15.31.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-19 10.50.51.excalidraw.md",
+    "Pasted image 20250519104612.png",
+    "Investigación/desktop.ini",
+    "Investigación/8. Atlas/desktop.ini",
+    "Investigación/7. Reporte/desktop.ini",
+    "Investigación/6. Criterios de inclusión y exclusión/desktop.ini",
+    "Investigación/5. Cadena de investigación/desktop.ini",
+    "Investigación/4. Preguntas de investigación/desktop.ini",
+    "Investigación/3. Systematic literature review/desktop.ini",
+    "Investigación/2. Antipatterns research fo DTIC/desktop.ini",
+    "Investigación/1. Anexo/desktop.ini",
+    "Investigación/0. images/desktop.ini",
     "Excalidraw/Drawing 2025-05-16 16.29.56.excalidraw.md",
     "Software/Gestión de proyectos de software/_Gestión de proyectos.md",
     "Software/Sistemas embebidos/_Sistemas embebidos.md",
@@ -207,6 +205,7 @@
     "Excalidraw/Drawing 2025-05-01 07.34.29.excalidraw.md",
     "Excalidraw/Drawing 2025-05-01 07.22.43.excalidraw.md",
     "Excalidraw/Drawing 2025-04-25 07.40.30.excalidraw.md",
+    "Cursos/Vue/Installed apps.md",
     "_resources/Pasted image 20250515174248.png",
     "conflict-files-obsidian-git.md",
     "_resources/Pasted image 20250509163037.png",
@@ -217,33 +216,19 @@
     "_resources/Pasted image 20250425094016.png",
     "_resources/Pasted image 20250425093503.png",
     "_resources/Pasted image 20250425093305.png",
-    "_resources/Pasted image 20250425092724.png",
     "Software/Gestión de proyectos de software/Descomposición.md",
     "Software/V&V/_Verificación y Validación.md",
     "Cursos/JavaScript/JavaScript.md",
     "Investigación/0. Apuntes/Framework.md",
-    "Cursos/Vue",
     "Software/Gestión de proyectos de software/Procesos de inicio.md",
     "Excalidraw/Drawing 2025-04-25 07.40.51.excalidraw.md",
-    "Excalidraw",
     "Cursos/Laravel/LARAVEL.md",
     "Cursos/Laravel + Vue/_Laravel + Vue.md",
-    "Cursos/Laravel + Vue",
     "Software/Gestión de proyectos de software/Sponsor.md",
     "Software/Gestión de proyectos de software/Stakeholder.md",
     "Software/Desarrollo de software seguro/Riesgo.md",
-    "resources",
     "Software/Gestión de proyectos de software/resultado único.md",
     "Software/Gestión de proyectos de software/temporal.md",
-    "Software/Gestión de proyectos de software",
-    "Software/Web Apps Avanzadas/_Web Apps Avanzadas.md",
-    "Software/Sistemas embebidos",
-    "Conocimiento general/Discovery.md",
-    "Cursos/C++/_C++.md",
-    "Conocimiento general",
-    "Cursos/C++",
-    "Software/Construcción y evolución del software",
-    "Cursos/Open Web Application Security Project/A03-2021 - Injection/Notes/DML",
     "CODEIto/Pendientes.canvas",
     "Software/V&V/Cosas para investigar.canvas",
     "Software/V&V/Ingeniería de Software (mapa mental).canvas",

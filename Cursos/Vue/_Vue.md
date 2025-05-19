@@ -455,6 +455,7 @@ const store = createStore ({
 	}
 })
 ```
+![[Drawing 2025-05-19 10.50.51.excalidraw]]
 ## Helpers
 Sirven para reducir código y ser más claros al momento de llamar `actions` o `getters` dentro de componentes
 ```JavaScript
@@ -462,11 +463,11 @@ import { mapGetters } from 'vuex'
 import { mapActions } from 'vuex'
 
 computed () {
-	...mapGetters(['getterMethod']) // dentro de computed propierties del componente
+	...mapGetters('nombreDelModulo', ['getterMethod']) // dentro de computed propierties del componente
 }
 
 methods() { 
-	...mapActions(['actionMethod1', 'actionMethos2', ...]) // dentro de methods propierties del componente
+	...mapActions('nombreDelModulo', ['actionMethod1', 'actionMethos2', ...]) // dentro de methods propierties del componente
 	// otra forma de usarlo
 	...mapActions({
 		nombre1: 'actionMethod1',
@@ -475,7 +476,7 @@ methods() {
 }
 ```
 ## Organizing storage with modules
-Se puede mejorar el storage dando responsabilidades únicas a objetos JavaScript que contengan la lógica de cada storage dividida.
+Se puede mejorar el storage dando responsabilidades únicas a objetos JavaScript que contengan la lógica de cada storage dividida. Toda la lógica de un módulo es accesible únicamente desde el módulo, ningún otro storage va a poder a acceder a ninguna de las propiedades del módulo.
 ```JavaScript
 const nameModule = {
 	state() {
@@ -501,4 +502,212 @@ const store = createStore ({
 		nombreDelModuloCreado: nameModule
 	}
 ```
+## Namespacing
+Puede darse el caso de que los métodos o variables se dupliquen entre módulos. Para evitar esto se usa lo siguiente:
+```
+namespaced: tue
 
+// Para acceder a las propiedades dle módulo se tiene que usar el nombre del módulo asignado en "modules: {}". Entonces, cada que se quiera acceder a los recursos de este módulo se debe usar 'nombreDelMódulo/recursoDelMódulo'
+```
+Esto hace que Vuex sepa que el módulo entero se desvincule del resto del store.
+## Estructurar proyecto
+Para estructurar de mejor manera a los proyectos que usen Vuex, se puede hacer un split del storage en archivos `js`, teniendo lo siguiente como ejemplo:
+![[Pasted image 20250519104612.png]]
+En dónde el index raíz luce de la siguiente forma:
+```JavaScript
+import { createStore } from 'vuex';
+import rootMutations from './mutations'
+import rootActions from './actions'
+import rootGetters from './getters'
+import counterModule from './modules/counter/index'
+
+const store = createStore({
+  modules: {
+    numbers: counterModule,
+  },
+
+  state() {
+    return {
+      isLoggedIn: false,
+    };
+  },
+
+  mutations: rootMutations,
+  actions: rootActions,
+  getters: rootGetters,
+});
+
+export default store;
+```
+>[!Important]
+>Cada uno de los archivos `js` debe empezar con `export default` y debe ser importado en el `index.js` correspondiente.
+# The Composition API
+Hasta el momento hemos venido usando <mark style="background: #FF5582A6;">Option API</mark> para construir aplicaciones y componentes que siguen la siguiente estructura:
+```JavaScript
+{
+	data() {
+		return {
+			...
+		}
+	}
+	methods {
+		...
+	}
+}
+```
+Entonces, <mark style="background: #FFB86CA6;">Composition API</mark> es una forma alternativa de crear aplicaciones o componentes con Vue, que posiblemente soluciona lo siguiente:
+1. Código que debería estar junto se separa en datos, métodos y computed.
+2. Reutilización de lógica de componentes puede ser un poco rara
+Para hacer esto, Composition API ofrece la siguiente estructura:
+```JavaScript
+{
+setup() {
+	// datos...
+	// métodos ...
+	return {
+		datos, métodos
+	}
+}
+}
+```
+![[Drawing 2025-05-19 11.15.31.excalidraw]]
+## data
+Así es como cambia en la definición de datos
+```JavaScript
+export default {
+  setup() {
+    const uName = ref('Maximilian'); //reactive (changing) data value with ref
+
+    return { userName: uName };
+  },
+
+  /* data() {
+    return {
+      userName: 'Maximilian',
+    };
+  }, */
+};
+```
+También se puede usar de la siguiente forma en las últimas versiones de Vue:
+```JavaScript
+<script setup>
+import { reactive } from 'vue';
+
+// reactive solo trabaja con objetos refs trabaja con cualquier tipo de dato
+const user = reactive({
+  name: 'Maximilian',
+  age: '31',
+});
+
+setTimeout(function () {
+  user.name = 'Max';
+  user.age = '32';
+}, 2000);
+
+/* data() {
+    return {
+      userName: 'Maximilian',
+    };
+  }, */
+</script>
+```
+## methods
+Composition API reemplaza a methods con simplemente ponerlos dentro del script y llamarlos al template, asi:
+```JavaScript
+<script setup>
+import { reactive } from 'vue';
+
+function setNewData() {
+  user.age += 1;
+}
+
+/*   methods: {
+    setNewAge() {
+      this.age = 32;
+    }
+  } */
+</script>
+```
+## computed
+Para definir un `computed method` se usa lo siguiente:
+```JavaScript
+<script setup>
+import { ref, computed } from 'vue';
+
+const uName = computed(function(){
+  return firstName.value + ' ' + lastName.value;
+})
+</script>
+```
+## watcher
+Para definir un `watcher method` se usa lo siguiente:
+```JavaScript
+<script setup>
+import { ref, computed, watch } from 'vue';
+
+watch([uAge, uName], function (newValues, oldValues) {
+  console.log('old age: ' + oldValue[0]);
+  console.log('new age: ' + newValue[0]);
+  console.log('old name: ' + oldValue[1]);
+  console.log('new name: ' + newValue[1]);
+});
+</script>
+```
+## refs
+Para obtener información de un input usando `refs` se hace lo siguiente: 
+```JavaScript
+<template>
+  <section class="container">
+    <h2>{{ uName }}</h2>
+    <h3>{{ uAge }}</h3>
+    <button @click="setNewAge">Change age</button>
+
+    <div>
+      <input type="text" placeholder="FirstName" v-model="firstName" />
+      <input type="text" placeholder="LastName" ref="lastNameInput" /> // HERE!
+      <button @click="setLastName"> Set Last Name</button>
+    </div>
+  </section>
+</template>
+
+<script setup>
+const lastNameInput = ref(null) //definios la variable del input ref
+  
+function setLastName() {
+  lastName.value = lastNameInput.value.value //llegamos a su valor, ya no se usa $refs
+}
+</script>
+```
+## props and modules
+Para usar props se usa lo siguiente:
+```JavaScript
+<template>
+  <h2>{{ uName }}</h2>
+  <h3>{{ props.age }}</h3>
+</template>
+
+<script setup>
+import { computed, defineProps } from 'vue';
+
+// AQUÍ!
+const props = defineProps({
+  firstName: String,
+  lastName: String,
+  age: Number,
+});
+
+const uName = computed(function () {
+  return props.firstName + ' ' + props.lastName;
+});
+</script>
+```
+Y luego para usarlos:
+```JavaScript
+<UserData
+      :first-name="firstName"
+      :last-name="lastName"
+      :age="uAge"
+    />
+```
+## Resumen
+![[Drawing 2025-05-19 15.29.59.excalidraw]]
