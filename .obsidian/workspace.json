@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursos/Vue/_Vue.md",
+                "file": "Software/Web Apps Avanzadas/_Web Apps Avanzadas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Vue"
+              "title": "_Web Apps Avanzadas"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "7d82c2f17ae425f2",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-05-19 15.29.59.excalidraw.md",
+    "Pasted image 20250520101327.png",
+    "Pasted image 20250520101253.png",
     "Cursos/Vue/_Vue.md",
+    "Excalidraw/Drawing 2025-05-19 15.29.59.excalidraw.md",
     "Excalidraw/Drawing 2025-05-19 11.15.31.excalidraw.md",
     "Excalidraw/Drawing 2025-05-19 10.50.51.excalidraw.md",
     "Pasted image 20250519104612.png",
@@ -215,7 +217,6 @@
     "_resources/Pasted image 20250425094700.png",
     "_resources/Pasted image 20250425094016.png",
     "_resources/Pasted image 20250425093503.png",
-    "_resources/Pasted image 20250425093305.png",
     "Software/Gestión de proyectos de software/Descomposición.md",
     "Software/V&V/_Verificación y Validación.md",
     "Cursos/JavaScript/JavaScript.md",
@@ -228,7 +229,6 @@
     "Software/Gestión de proyectos de software/Stakeholder.md",
     "Software/Desarrollo de software seguro/Riesgo.md",
     "Software/Gestión de proyectos de software/resultado único.md",
-    "Software/Gestión de proyectos de software/temporal.md",
     "CODEIto/Pendientes.canvas",
     "Software/V&V/Cosas para investigar.canvas",
     "Software/V&V/Ingeniería de Software (mapa mental).canvas",

@@ -84,5 +84,16 @@ Se puede conectar a SQL server de diferentes formas:
 | 127.0.0.1            | TCP/IP                      |
 | 127.0.0.1,1433       | TCP/IP explícito            |
 | NOMBREPC (hostname)  | TCP/IP o Named Pipes        |
-# POC (Proof of concept)
-
+# Websocket
+## Protocolos de red
+![[Pasted image 20250520101253.png]]
+## Aplicaciones web tradicionales
+Las aplicaciones web funcionaban mediante el modelo de solicitud-respuesta, en el que un cliente (navegador) enviaba una solicitud al servidor y este respondía con la información solicitada.
+![[Pasted image 20250520101327.png]]
+Esta arquitectura tenía limitaciones que no permitían satisfacer las demandas de los usuarios y las expectativas de interacción en tiempo real.
+### Ajax
+A medida que las aplicaciones web se volvieron más avanzadas y las páginas más dinámicas, surgió un nuevo modelo, llamado <mark style="background: #BBFABBA6;">Ajax</mark> (**A**synchronous **J**avaScript **A**nd **X**ML).
+>[!Note]
+>Con Ajax es posible realizar una solicitud HTTP y obtener la respuesta HTTP sin tener que actualizar toda la página, introduciendo a las páginas con más dinamismo.
+### JQuery
+jQuery es una librería de JavaScript que facilita la programación del lado del cliente en aplicaciones web. Fue muy popular porque simplificó muchas tareas comunes que antes requerían más líneas de código o que no funcionaban igual en todos los navegadores.
