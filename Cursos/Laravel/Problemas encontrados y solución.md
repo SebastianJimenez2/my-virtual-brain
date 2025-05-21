@@ -31,4 +31,22 @@ Solución:
 - `php artisan serve`
 >[!Note]
 >No es la solución más óptima ya que se tiene que hacer a cada rato, pero no he encontrado otra solución. Problema del Sebas del futuro.
-
+# Permission denied
+Al momento de querer navegar entre rutas sale el siguiente mensaje:
+```
+file_get_contents(XXXXX\blog\routes): Failed to open stream: Permission denied
+```
+El error en este error en particular fue el siguiente:
+```PHP
+Route::get('/post', function () { 
+	return view('post', [ 
+	'post' => file_get_contents(__DIR__ , '/../resources/posts/my-first-post.html')
+	]); 
+```
+En este caso en particular Laravel está tratando de acceder a `\routes` como si fuese un archivo, lo cuál no tiene sentido ya que es un directorio, para solucionarlo se debe hacer la siguiente modificación:
+```PHP
+Route::get('/post', function () {  
+    return view('post', [  
+    'post' => file_get_contents(realpath(__DIR__ . '/../resources/posts/my-first-post.html')),  
+]);
+```
