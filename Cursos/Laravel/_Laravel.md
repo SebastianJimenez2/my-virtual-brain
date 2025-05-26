@@ -407,3 +407,19 @@ class Post extends Model
 Básicamente lo que hace esta relación es asociar a un modelo en particular a otro, se podría decir que es una relación uno a uno, un post tiene una categoría asociadas, mientras una categoría se asocia a un post. Esto se puede notar al observar la estructura de nuestro post usando `tinker`:
 ![[Pasted image 20250526122454.png]]
 Nótese cómo, al estar asociado a una categoría con id de 1, entonces al final del modelo se nos muestra la información de la categoría del post, esto nos permite hacer llamado a los atributos de la categoría desde el post, así: `$post->category->name`
+## hasMany
+Funciona exactamente igual al anterior, pero con una sintaxis diferente:
+``` PHP
+<?php  
+
+use \Illuminate\Database\Eloquent\Relations\HasMany; 
+
+class Post extends Model  
+{  
+    public function category(): BelongsTo  
+    {  
+        //hasOne, hasMany, belongsTo, belongsToMany  
+        return $this->hasMany(Category::class);  
+    }  
+}
+```
