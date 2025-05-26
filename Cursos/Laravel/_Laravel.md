@@ -356,6 +356,12 @@ class Post extends Model
     protected $table = 'posts';
 }
 ```
+Para agregar información al modelo se debe hacer lo siguiente:
+```PHP
+<Model>::create(['attribite' => 'information', ...])
+```
+>[!Note]
+>Se debe estar dentro de `php artisan tinker` para ejecutar dicho comando, tener en cuenta que dentro del modelo los atributos que se agreguen deben ser `fillable` => `protected $fillable = ['attribute', ...]`
 # SEEDERS
 Son datos quemados dentro de la base de datos para probar funcionalidades con los registros reales. Estos datos se realiza dentro de la carpeta `database/seeder/*.php`.
 Y se alimenta a la base de datos usando el siguiente comando:
@@ -379,4 +385,25 @@ php artisan make:factory <nombre>
 ```php
 php artisan migrate:fresh --seed
 ```
+# Eloquent Relationship
+>[!Nota]
+>Una forma sencilla de crear un modelo asociado a una migración es usando el siguiente comando: `php artisan make:model <nombre> -m`
+## belongsTo
+Para usar esta relación dentro del modelo se debe tener el siguiente código:
+``` PHP
+<?php  
 
+use \Illuminate\Database\Eloquent\Relations\BelongsTo; 
+
+class Post extends Model  
+{  
+    public function category(): BelongsTo  
+    {  
+        //hasOne, hasMany, belongsTo, belongsToMany  
+        return $this->belongsTo(Category::class);  
+    }  
+}
+```
+Básicamente lo que hace esta relación es asociar a un modelo en particular a otro, se podría decir que es una relación uno a uno, un post tiene una categoría asociadas, mientras una categoría se asocia a un post. Esto se puede notar al observar la estructura de nuestro post usando `tinker`:
+![[Pasted image 20250526122454.png]]
+Nótese cómo, al estar asociado a una categoría con id de 1, entonces al final del modelo se nos muestra la información de la categoría del post, esto nos permite hacer llamado a los atributos de la categoría desde el post, así: `$post->category->name`
