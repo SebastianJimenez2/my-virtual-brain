@@ -1,8 +1,9 @@
 # Ignorar configuraciones personales
 .obsidian/workspace
-# .obsidian/config
+.obsidian/config
 .obsidian/appearance.json
 .obsidian/hotkeys.json
+.trash/
 
 # Ignorar temas locales
 # .obsidian/themes/

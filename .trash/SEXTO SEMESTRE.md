@@ -1,6 +1,0 @@
-[[_Ingeniería financiera]]
-[[TECNOLOGÍAS DE LA SEGURIDAD]]
-[[_Construcción y evolución del software]]
-[[_Apps Webs]]
-[[GESTION DE PROCESOS Y CALIDAD]]
-[[METODOLOGÍAS ÁGILES]]
