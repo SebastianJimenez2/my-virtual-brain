@@ -1,0 +1,17 @@
+# Ignorar configuraciones personales
+.obsidian/workspace
+# .obsidian/config
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+
+# Ignorar temas locales
+# .obsidian/themes/
+
+# Ignorar notas temporales, backups y archivos del sistema
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Ignorar archivos de log o bases de datos temporales (si aplicara)
+*.log
