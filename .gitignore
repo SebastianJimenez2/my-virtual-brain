@@ -3,16 +3,23 @@
 .obsidian/config
 .obsidian/appearance.json
 .obsidian/hotkeys.json
+.obsidian/graph.json
 .trash/
 
 # Ignorar temas locales
 # .obsidian/themes/
 
-# Ignorar notas temporales, backups y archivos del sistema
-.DS_Store
+# Archivos de sistema
+desktop.ini
 Thumbs.db
-*.bak
-*.tmp
+.DS_Store
+.AppleDouble
+.LSOverride
 
 # Ignorar archivos de log o bases de datos temporales (si aplicara)
 *.log
+
+# Backups u otros
+*_backup.*
+*.bak
+*.tmp
