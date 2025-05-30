@@ -423,3 +423,63 @@ class Post extends Model
     }  
 }
 ```
+# Autorización y validación
+En Laravel se puede hacer validaciones siguiendo la [documentación](https://laravel.com/docs/11.x/validation#main-content), un ejemplo de esto es lo siguiente, en dónde se validan los campos de un form encargado de registrar nuevos usuarios en una página de blogs:
+```PHP
+public function store()  
+{  
+    $attributes = request()->validate([  
+        'name' => 'required|max:255',  
+        'username' => 'required|min:3|max:255',  
+        'email' => 'required|email|max:255',  
+        'password' => 'required|min:7|max:255',  
+    ]);  
+  
+    User::create($attributes);  
+  
+    return redirect('/');  
+}
+```
+En este caso en particular lo que se hace es establecer campos que sean requeridos y que tengan un máximo o mínimo de caracteres.
+>[!Warning]
+>Al enviar datos (`POST`) de un formulario sin autorización, Laravel mostrará la pantalla `419 | Page Expired`, ya que por default tiene protección ante ataques CSFR (Cross-Site Request Forgery o Falsificación de solicitud entre sitios)
+
+Para estos casos Laravel tiene una anotación que se puede usar antes de definir campos de un form: `@csfr` que por detrás es una etiqueta input oculta que maneja un token que valida la navegación entre las páginas, de esta forma con este token se puede acceder a las páginas ya que sirve como una forma de identificación del usuario para que se mantenga dentro de un mismo dominio.
+## Validation error
+Cuando la validación de Laravel falla, lo que sucede es una redirección a la página anterior, que en este caso va a ser la del formulario, en este punto nos encontramos con dos problemas:
+1. No hay retroalimentación para el usuario
+**Solución:**
+```PHP
+@error('<id_campo')  
+    <p class="text-red-500 text-xs mt-1">{{ $message }}</p>  
+@enderror
+```
+1. Los datos escritos se borran y fuerza al usuario a escribir todo desde 0
+**Solución:**
+```PHP
+<input class="border border-gray-400 p-2 w-full"  
+       type="text"  
+       name="name"  
+       id="name"  
+       value="{{ old('name') }}"  # Mantiene el valor de la sesión anterior
+       required  
+>
+```
+1. Si se crea un usuario nuevo, va a dar un error de la BD de la clave primaria duplicada
+**Solución:**
+```PHP
+$attributes = request()->validate([  
+    'name' => 'required|max:255',  
+    'username' => 'required|min:3|max:255|unique:<tabla>,<campo>', # AQUÍ  
+    'email' => 'required|email|max:255',  
+    'password' => 'required|min:7|max:255',  
+]);
+```
+# Hashing
+En el caso de que un formulario tenga un campo que requiera ser hasheado, se puede hacer uso del modelo asociado a los datos de ese formulario y crear una función que siga la siguiente convención:
+```PHP
+public function set<atribute_name>Attribute($<atribute_name>)  
+{  
+    $this->attributes['<atribute_name>'] = bcrypt($<atribute_name>);  
+}
+```
