@@ -97,3 +97,5 @@ A medida que las aplicaciones web se volvieron más avanzadas y las páginas má
 >Con Ajax es posible realizar una solicitud HTTP y obtener la respuesta HTTP sin tener que actualizar toda la página, introduciendo a las páginas con más dinamismo.
 ### JQuery
 jQuery es una librería de JavaScript que facilita la programación del lado del cliente en aplicaciones web. Fue muy popular porque simplificó muchas tareas comunes que antes requerían más líneas de código o que no funcionaban igual en todos los navegadores.
+# N-Layer architecture
+![[Drawing 2025-06-03 09.28.47.excalidraw]]
