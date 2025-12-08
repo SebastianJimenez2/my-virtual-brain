@@ -1,1 +1,0 @@
-Acuérdate de la **técnica persona**

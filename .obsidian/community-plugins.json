@@ -1,12 +1,8 @@
 [
   "obsidian-git",
-  "obsidian-icon-folder",
   "highlightr-plugin",
   "obsidian-annotator",
-  "obsidian-linter",
-  "obsidian-importer",
   "obsidian-excalidraw-plugin",
-  "obsidian-image-toolkit",
-  "code-styler",
-  "excel"
+  "excel",
+  "obsidian-image-toolkit"
 ]

@@ -1,4 +1,0 @@
-- El docente debe presentar la información en sus materias correspondientes y evaluar al final
-	- **Problemas:** Puede ser un proceso repetitivo para ciertos estudiantes
-- Charla 
-	- **Problemas:** No van a ir los estudiantes
